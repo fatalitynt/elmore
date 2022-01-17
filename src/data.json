@@ -1,0 +1,28 @@
+{
+  "allies": [
+    {
+      "name": "ally1"
+    },
+    {
+      "name": "ally2"
+    }
+  ],
+  "clans": [
+    {
+      "name": "NoRegret",
+      "clName": "FastMoney",
+      "castle": "NONE",
+      "clanHall": "NONE",
+      "goal": "PVE",
+      "population": "111"
+    },
+    {
+      "name": "NoRegret2",
+      "clName": "FastMoney2",
+      "castle": "NONE",
+      "clanHall": "NONE",
+      "goal": "PVE",
+      "population": "1111"
+    }
+  ]
+}
