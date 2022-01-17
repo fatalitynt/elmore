@@ -1,0 +1,73 @@
+.root {
+    background-color: #1d1b1a;
+    color: #808080;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.header {
+    border: 3px solid orange;
+}
+
+.content {
+    border: 3px solid yellow;
+}
+
+.ally {
+    border: 1px solid #d4b664;
+    margin: 10px;
+    padding: 5px;
+}
+
+.allyTableHeader {
+    font-size: 11px;
+}
+
+.clanNameHeader {
+    color: #d4b664;
+    font-size: 13px;
+    text-align: left;
+    width: 100px;
+}
+
+.clHeader {
+    width: 100px;
+    text-align: left;
+}
+
+.otherColumn {
+    width: 70px;
+}
+
+.clanName {
+    color: white;
+    text-align: left;
+}
+
+.cl {
+    text-align: left;
+    color: white;
+}
+
+.castle {
+    color: #08dd0f;
+}
+
+.ch {
+    color: #d4b664;
+}
+
+.goalWhite {
+    color: white;
+}
+
+.goalPurple {
+    color: #f700f7;
+}
+
+.empty {
+}
+
+.footer {
+    border: 3px solid green;
+}

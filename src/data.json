@@ -1,28 +1,97 @@
 {
   "allies": [
     {
-      "name": "ally1"
+      "name": "Alert",
+      "languages": ["RU"],
+      "clans": [
+        {
+          "name": "NoRegret",
+          "clName": "FastMoney",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        },
+        {
+          "name": "NoRegrett",
+          "clName": "KurisuMakise",
+          "castle": "LALA",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "3"
+        },
+        {
+          "name": "RedAlert",
+          "clName": "AKG",
+          "castle": "NONE",
+          "clanHall": "HAHAHA",
+          "goal": "PVP",
+          "population": "1"
+        },
+        {
+          "name": "Red",
+          "clName": "Pun",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "1"
+        },
+        {
+          "name": "red2",
+          "clName": "LeonidArkadevich",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "1"
+        },
+        {
+          "name": "Red3",
+          "clName": "Boril",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "1"
+        }
+      ]
     },
     {
-      "name": "ally2"
+      "name": "ally2",
+      "clans": [
+        {
+          "name": "NoRegret333",
+          "clName": "FastMoney",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        },
+        {
+          "name": "NoRegret444",
+          "clName": "FastMoney2",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "4"
+        }
+      ]
     }
   ],
   "clans": [
     {
-      "name": "NoRegret",
+      "name": "NoRegret000",
       "clName": "FastMoney",
       "castle": "NONE",
       "clanHall": "NONE",
       "goal": "PVE",
-      "population": "111"
+      "population": "3"
     },
     {
-      "name": "NoRegret2",
+      "name": "NoRegret001",
       "clName": "FastMoney2",
       "castle": "NONE",
       "clanHall": "NONE",
       "goal": "PVE",
-      "population": "1111"
+      "population": "4"
     }
   ]
 }
