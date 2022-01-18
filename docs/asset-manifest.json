@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/elmore/static/css/main.feff6caf.css",
-    "main.js": "/elmore/static/js/main.65cda238.js",
+    "main.css": "/elmore/static/css/main.a3b66fe8.css",
+    "main.js": "/elmore/static/js/main.98b43004.js",
     "static/media/elmo-logo.png": "/elmore/static/media/elmo-logo.f5f7040e49524f5072c8.png",
     "index.html": "/elmore/index.html",
-    "main.feff6caf.css.map": "/elmore/static/css/main.feff6caf.css.map",
-    "main.65cda238.js.map": "/elmore/static/js/main.65cda238.js.map"
+    "main.a3b66fe8.css.map": "/elmore/static/css/main.a3b66fe8.css.map",
+    "main.98b43004.js.map": "/elmore/static/js/main.98b43004.js.map"
   },
   "entrypoints": [
-    "static/css/main.feff6caf.css",
-    "static/js/main.65cda238.js"
+    "static/css/main.a3b66fe8.css",
+    "static/js/main.98b43004.js"
   ]
 }
