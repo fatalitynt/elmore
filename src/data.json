@@ -106,6 +106,77 @@
           "population": "2"
         }
       ]
+    },
+    {
+      "name": "Empire",
+      "languages": ["ru"],
+      "clans": [
+        {
+          "name": "deadinside",
+          "clName": "Whoyasse",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "ADEN",
+          "goal": "PVP",
+          "population": "3"
+        },
+        {
+          "name": "deadoutside",
+          "clName": "jaQc",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "DeathSquad",
+          "clName": "Wilgelm",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "Disasters",
+          "clName": "Prawda",
+          "castle": "NONE",
+          "clanHall": "PARTISAN",
+          "goal": "PVP",
+          "population": "3"
+        },
+        {
+          "name": "Easy",
+          "clName": "papaCarlo",
+          "castle": "INNADRILE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "1"
+        },
+        {
+          "name": "FarkaTeam",
+          "clName": "Kopilka",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "Invasion",
+          "clName": "Nienna",
+          "castle": "NONE",
+          "clanHall": "DEVASTATED",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "Say",
+          "clName": "backstage",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "3"
+        }
+      ]
     }
   ],
   "clans": [
