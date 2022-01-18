@@ -1,9 +1,13 @@
 {
+  "info": {
+    "Comment": "This object is not for data, this is an guidelines how to fill the rest of the file",
+    "SupportLanguageTokens": ["cz, en, gr, pol, por, ru, sp, multi"]
+  },
   "date": "01.01.2022",
   "allies": [
     {
       "name": "Alert",
-      "languages": ["RU"],
+      "languages": ["ru"],
       "clans": [
         {
           "name": "NoRegret",
@@ -16,7 +20,7 @@
         {
           "name": "NoRegrett",
           "clName": "KurisuMakise",
-          "castle": "LALA",
+          "castle": "NONE",
           "clanHall": "NONE",
           "goal": "Twinkies",
           "population": "3"
@@ -25,13 +29,14 @@
           "name": "RedAlert",
           "clName": "AKG",
           "castle": "NONE",
-          "clanHall": "HAHAHA",
+          "clanHall": "NONE",
           "goal": "PVP",
           "population": "1"
         },
         {
           "name": "Red",
           "clName": "Pun",
+          "isAllyLeader": true,
           "castle": "NONE",
           "clanHall": "NONE",
           "goal": "Twinkies",
@@ -56,23 +61,49 @@
       ]
     },
     {
-      "name": "ally2",
+      "name": "CARTEL",
+      "languages": ["ru"],
       "clans": [
         {
-          "name": "NoRegret333",
-          "clName": "FastMoney",
+          "name": "2RBO",
+          "clName": "POREVO",
+          "isAllyLeader": true,
           "castle": "NONE",
-          "clanHall": "NONE",
-          "goal": "PVE",
-          "population": "3"
-        },
-        {
-          "name": "NoRegret444",
-          "clName": "FastMoney2",
-          "castle": "NONE",
-          "clanHall": "NONE",
+          "clanHall": "GIRAN",
           "goal": "PVE",
           "population": "4"
+        },
+        {
+          "name": "WoofWoof",
+          "clName": "Pes",
+          "castle": "NONE",
+          "clanHall": "GIRAN",
+          "goal": "AFK",
+          "population": "4"
+        },
+        {
+          "name": "x2RBO",
+          "clName": "P22",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "xx2RBO",
+          "clName": "OTAMAH",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "TheWoofers",
+          "clName": "iPes",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
         }
       ]
     }

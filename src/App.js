@@ -1,15 +1,23 @@
 import './App.css';
 import data from './data.json';
 import bigLogo from './images/elmo-logo.png';
-import population1 from './images/population1.png';
-import population2 from './images/population2.png';
-import population3 from './images/population3.png';
-import population4 from './images/population4.png';
+import population1 from './images/population/population1.png';
+import population2 from './images/population/population2.png';
+import population3 from './images/population/population3.png';
+import population4 from './images/population/population4.png';
+import lang_cz from './images/lang/lang_cz.png';
+import lang_en from './images/lang/lang_en.png';
+import lang_gr from './images/lang/lang_gr.png';
+import lang_pol from './images/lang/lang_pol.png';
+import lang_por from './images/lang/lang_por.png';
+import lang_ru from './images/lang/lang_ru.png';
+import lang_sp from './images/lang/lang_sp.png';
+import lang_multi from './images/lang/lang_multi.png';
+import crown from './images/crown.png';
 
 const populationImages = [population1, population2, population3, population4];
 
 function App() {
-  console.log(data);
   return (
     <div className="root">
       <div className="header">
@@ -20,9 +28,7 @@ function App() {
       <div className="content">
         {renderAllies(data)}
       </div>
-      <div className="footer">
-        Footer
-      </div>
+      {renderFooter()}
     </div>
   );
 }
@@ -43,7 +49,12 @@ function renderAlly(ally, idx) {
       <table className="ally" key={idx}>
         <thead className="allyTableHeader">
         <tr>
-          <th className="clanNameHeader">{ally.name}</th>
+          <th className="clanNameHeader" colSpan={2}>
+            {ally.name}
+            {ally.languages && ally.languages.map((x, idx) => {
+              return <img className="clanNameHeaderLangIcon" key={idx} src={getLanguageIconByCode(x)} alt={x}/>
+            })}
+          </th>
           <th className="clHeader">LEADER</th>
           <th className="otherColumn">CASTLE</th>
           <th className="otherColumn">CLAN HALL</th>
@@ -63,19 +74,52 @@ function renderClan(clan, idx) {
   return (
     <tr key={idx}>
       <th className="clanName">{clan.name}</th>
+      <th>
+        {clan.isAllyLeader && <img className="clCrown" src={crown} alt={"AL"}/>}
+      </th>
       <th className="cl">{clan.clName}</th>
       <th className={clan.castle === "NONE" ? "empty" : "castle"}>{clan.castle}</th>
       <th className={clan.clanHall === "NONE" ? "empty" : "ch"}>{clan.clanHall}</th>
       <th className={getGoalClassName(clan.goal)}>{clan.goal}</th>
-      <th><img src={populationImages[clan.population - 1]}/></th>
+      <th><img src={populationImages[clan.population - 1]} alt={clan.population}/></th>
     </tr>
   );
 }
 
 function getGoalClassName(value) {
   if (value === "PVP") return "goalPurple";
-  if (value === "PVE") return "goalWhite";
+  if (value === "PVE" || value === "AFK") return "goalWhite";
   return "empty";
+}
+
+function getLanguageIconByCode(code) {
+  switch (code) {
+    case "cz": return lang_cz;
+    case "en": return lang_en;
+    case "gr": return lang_gr;
+    case "pol": return lang_pol;
+    case "por": return lang_por;
+    case "ru": return lang_ru;
+    case "sp": return lang_sp;
+    case "multi": return lang_multi;
+    default: return null;
+  }
+}
+
+const lang_icons = [lang_cz, lang_en, lang_gr, lang_pol, lang_por, lang_ru, lang_sp, lang_multi];
+const lang_names = ["Czech language", "English language", "Greek language", "Polish language", "Portuguese language", "Russian language", "Spanish language", "Multilingual"];
+
+function renderFooter() {
+  return (<div className="footer">
+    <div className="langLegend">
+      {lang_icons.map((icon, idx) => {
+        return <div className="langLegendItem" key={idx}>
+          <img className="langLegendItemIcon" src={icon} alt={lang_names[idx]}/>
+          <span style={{paddingLeft: 10}}>{lang_names[idx]}</span>
+        </div>
+      })}
+    </div>
+  </div>);
 }
 
 export default App;
