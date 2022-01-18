@@ -18,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "mv-to-docs": "node -e \"require('fs').rename('build', 'docs', function(err) { if (err) console.log(err); else console.log('Done!') })\"",
+    "clean-docs": "node -e \"fs.rmdirSync('docs', { recursive: true })\"",
+    "deploy": "gh-pages -d build && npm run clean-docs && npm run mv-to-docs"
   },
   "eslintConfig": {
     "extends": [
