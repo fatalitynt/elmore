@@ -3,10 +3,20 @@
     color: #808080;
     font-size: 12px;
     font-weight: normal;
+    border: 5px solid #d4b664;
 }
 
 .header {
-    border: 3px solid orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerDate {
+    width: 170px;
+    font-size: 13px;
+    align-self: flex-end;
+    padding: 10px;
+    color: #d4b664;
 }
 
 .content {

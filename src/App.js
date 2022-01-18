@@ -1,11 +1,16 @@
 import './App.css';
 import data from './data.json';
+import bigLogo from './images/elmo-logo.png';
 
 function App() {
   console.log(data);
   return (
     <div className="root">
-      <div className="header">Header</div>
+      <div className="header">
+        <div className="headerDate">SITUATION ON {data.date}</div>
+        <img src={bigLogo} alt="Logo"/>
+        <div className="headerDate"/>
+      </div>
       <div className="content">
         {renderAllies(data)}
       </div>
@@ -31,17 +36,17 @@ function renderAlly(ally, idx) {
     return (
       <table className="ally" key={idx}>
         <thead className="allyTableHeader">
-          <tr>
-            <th className="clanNameHeader">{ally.name}</th>
-            <th className="clHeader">LEADER</th>
-            <th className="otherColumn">CASTLE</th>
-            <th className="otherColumn">CLAN HALL</th>
-            <th className="otherColumn">PRIORITY</th>
-            <th className="otherColumn">MEMBERS</th>
-          </tr>
+        <tr>
+          <th className="clanNameHeader">{ally.name}</th>
+          <th className="clHeader">LEADER</th>
+          <th className="otherColumn">CASTLE</th>
+          <th className="otherColumn">CLAN HALL</th>
+          <th className="otherColumn">PRIORITY</th>
+          <th className="otherColumn">MEMBERS</th>
+        </tr>
         </thead>
         <tbody>
-          {ally.clans.map((x, idx) => renderClan(x, idx))}
+        {ally.clans.map((x, idx) => renderClan(x, idx))}
         </tbody>
       </table>
     );
