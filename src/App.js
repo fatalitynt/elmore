@@ -32,15 +32,9 @@ function App() {
 
 function renderAllies() {
   if (data.allies != null && data.allies.length > 0) {
-    let leftNbOfAllies = findLeftColumnAlliesNb(data.allies);
     return (
-      <div className="alliesContainer">
-        <div className="alliesContainerLeft">
-          {data.allies.slice(0, leftNbOfAllies).map((ally, idx) => renderAlly(ally, idx))}
-        </div>
-        <div className="alliesContainerRight">
-          {data.allies.slice(leftNbOfAllies).map((ally, idx) => renderAlly(ally, idx))}
-        </div>
+      <div>
+        {data.allies.map((ally, idx) => renderAlly(ally, idx))}
       </div>
     );
   }
@@ -100,18 +94,6 @@ function getLanguageIconByCode(code) {
     default:
       return null;
   }
-}
-
-function findLeftColumnAlliesNb(allies) {
-  let totalSum = 0;
-  allies.forEach(a => totalSum += a.clans.length);
-  let idx = 0;
-  let localSum = 0;
-  while (localSum < totalSum / 2) {
-    localSum += allies[idx].clans.length;
-    idx++;
-  }
-  return idx;
 }
 
 export default App;

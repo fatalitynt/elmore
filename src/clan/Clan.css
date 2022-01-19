@@ -6,6 +6,7 @@
 
 .clanIcon {
     width: 25px;
+    text-align: left;
 }
 
 .clanIconImage {
@@ -16,15 +17,18 @@
 .clanName {
     width: 125px;
     color: white;
+    text-align: left;
 }
 
 .clanCrown {
     width: 20px;
+    text-align: left;
 }
 
 .clanLeader {
     width: 100px;
     color: white;
+    text-align: left;
 }
 
 .clanCastle {
@@ -57,4 +61,12 @@
 
 .goalGreen {
     color: #08dd0f;
+}
+
+.clanTableHeader {
+    width: 570px;
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 11px;
+    align-items: flex-end;
 }

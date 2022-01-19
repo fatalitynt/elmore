@@ -83,6 +83,7 @@ function renderPopulation() {
   return (
     <div className="populationLegend">
       <table>
+        <tbody>
         <tr>
           <th><img src={population1} alt="1-10"/></th>
           <th className="populationMeaning">1-10 members</th>
@@ -99,6 +100,7 @@ function renderPopulation() {
           <th><img src={population4} alt="31-40"/></th>
           <th className="populationMeaning">31-40 members</th>
         </tr>
+        </tbody>
       </table>
     </div>
   );
