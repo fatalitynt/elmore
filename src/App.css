@@ -20,12 +20,28 @@
 }
 
 .content {
-    border: 3px solid yellow;
 }
 
-.ally {
+.alliesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.alliesContainerLeft {
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    padding-right: 20px;
+
+}
+
+.alliesContainerRight {
+    padding-left: 21px;
+    border-bottom: 1px solid #808080;
+}
+
+.allyTable {
     border: 1px solid #d4b664;
-    margin: 10px;
+    margin-bottom: 20px;
     padding: 5px;
     border-spacing: 0;
 }
@@ -38,7 +54,7 @@
     color: #d4b664;
     font-size: 13px;
     text-align: left;
-    width: 130px;
+    width: 170px;
     height: 20px;
 }
 
@@ -60,7 +76,17 @@
 .clCrown {
     position: relative;
     top: 2px;
-    left: 5px;
+    left: 2px;
+}
+
+.clanImg {
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+.clanImgColumn {
+    width: 27px;
 }
 
 .clanName {
@@ -89,10 +115,15 @@
     color: #f700f7;
 }
 
+.goalGreen {
+    color: #08dd0f;
+}
+
 .empty {
 }
 
 .footer {
+    margin-top: 50px;
     border: 3px solid green;
     display: flex;
     font-size: 13px;

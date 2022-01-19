@@ -1,13 +1,17 @@
 {
   "info": {
     "Comment": "This object is not for data, this is an guidelines how to fill the rest of the file",
-    "SupportLanguageTokens": ["cz, en, gr, pol, por, ru, sp, multi"]
+    "SupportLanguageTokens": [
+      "cz, en, gr, pol, por, ru, sp, multi"
+    ]
   },
   "date": "01.01.2022",
   "allies": [
     {
       "name": "Alert",
-      "languages": ["ru"],
+      "languages": [
+        "ru"
+      ],
       "clans": [
         {
           "name": "NoRegret",
@@ -62,7 +66,9 @@
     },
     {
       "name": "CARTEL",
-      "languages": ["ru"],
+      "languages": [
+        "ru"
+      ],
       "clans": [
         {
           "name": "2RBO",
@@ -109,7 +115,9 @@
     },
     {
       "name": "Empire",
-      "languages": ["ru"],
+      "languages": [
+        "ru"
+      ],
       "clans": [
         {
           "name": "deadinside",
@@ -175,6 +183,426 @@
           "clanHall": "NONE",
           "goal": "PVP",
           "population": "3"
+        }
+      ]
+    },
+    {
+      "name": "era",
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "clans": [
+        {
+          "name": "clanSupports",
+          "clName": "Urc",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "Noxus",
+          "clName": "xXUkraineXx",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        },
+        {
+          "name": "SonOfAnarchy",
+          "clName": "Private",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "4"
+        },
+        {
+          "name": "Stari4ki",
+          "clName": "Reshala",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        }
+      ]
+    },
+    {
+      "name": "fairplay",
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "clans": [
+        {
+          "name": "69",
+          "clName": "Principle",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "2"
+        },
+        {
+          "name": "DominationCAT",
+          "clName": "CyKA4eB",
+          "castle": "NONE",
+          "clanHall": "GODDARD",
+          "goal": "PVP",
+          "population": "3"
+        },
+        {
+          "name": "EagleHeart",
+          "clName": "Polyak",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "2"
+        },
+        {
+          "name": "Explosive",
+          "clName": "Mule",
+          "castle": "NONE",
+          "clanHall": "ADEN",
+          "goal": "PVP",
+          "population": "3"
+        },
+        {
+          "name": "Farm2",
+          "clName": "QueenAnt",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "2"
+        },
+        {
+          "name": "KOJI9CKu",
+          "clName": "LuckyCraft",
+          "castle": "NONE",
+          "clanHall": "ADEN",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "llllllllllllll",
+          "clName": "Donald",
+          "castle": "NONE",
+          "clanHall": "ADEN",
+          "goal": "Twinkies",
+          "population": "4"
+        },
+        {
+          "name": "neverland",
+          "clName": "Mammon",
+          "castle": "NONE",
+          "clanHall": "GIRAN",
+          "goal": "Twinkies",
+          "population": "4"
+        },
+        {
+          "name": "OldSchool",
+          "clName": "Twigle",
+          "castle": "NONE",
+          "clanHall": "ADEN",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "Raptor",
+          "clName": "kamaelkase",
+          "castle": "NONE",
+          "clanHall": "GIRAN",
+          "goal": "Twinkies",
+          "population": "4"
+        },
+        {
+          "name": "RealezaLatina",
+          "clName": "eldoctor",
+          "castle": "NONE",
+          "clanHall": "ADEN",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "Thugs",
+          "clName": "Roar",
+          "castle": "ADEN",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        }
+      ]
+    },
+    {
+      "name": "Imperium",
+      "languages": [
+        "cz",
+        "pol",
+        "en"
+      ],
+      "clans": [
+        {
+          "name": "Daeemona",
+          "clName": "Mandragorra",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "2"
+        },
+        {
+          "name": "Level",
+          "clName": "Blbka",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "4"
+        },
+        {
+          "name": "Level2",
+          "clName": "MistrKovar",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "4"
+        },
+        {
+          "name": "PLevel",
+          "clName": "ATOMBOMB",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "3"
+        },
+        {
+          "name": "PLevel2",
+          "clName": "IvetkaBartosova",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "1"
+        }
+      ]
+    },
+    {
+      "name": "MonkeyMadness",
+      "languages": [
+        "multi"
+      ],
+      "clans": [
+        {
+          "name": "MonkeyBusiness",
+          "clName": "SirReet",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "DION",
+          "goal": "Friendly",
+          "population": "4"
+        },
+        {
+          "name": "MightyMonkeys",
+          "clName": "LaryReet",
+          "castle": "NONE",
+          "clanHall": "DION",
+          "goal": "Friendly",
+          "population": "3"
+        }
+      ]
+    },
+    {
+      "name": "RedWine",
+      "languages": [
+        "sp"
+      ],
+      "clans": [
+        {
+          "name": "Asassin",
+          "clName": "ASN",
+          "castle": "NONE",
+          "clanHall": "GIRAN",
+          "goal": "PVE",
+          "population": "3"
+        },
+        {
+          "name": "Assassin",
+          "clName": "CoMarKa",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        },
+        {
+          "name": "Escuadron731",
+          "clName": "TheKinG",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        },
+        {
+          "name": "TheRevolution",
+          "clName": "Alteza",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVE",
+          "population": "3"
+        }
+      ]
+    },
+    {
+      "name": "SUXCESS",
+      "languages": [
+        "multi"
+      ],
+      "clans": [
+        {
+          "name": "Akatsuki",
+          "clName": "PAlN",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "EruseN",
+          "clName": "funKy",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "ErusseN",
+          "clName": "ObiWan",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "FeelFree",
+          "clName": "FeelFree",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "1"
+        },
+        {
+          "name": "ForeveR",
+          "clName": "Musmuhita",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "IntensiveCare",
+          "clName": "ICare4u",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "iVikings",
+          "clName": "iOdin",
+          "isAllyLeader": true,
+          "castle": "NONE",
+          "clanHall": "GODDARD",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "ScumAndVillainy",
+          "clName": "Ninlil",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "4"
+        },
+        {
+          "name": "WMD",
+          "clName": "kyb",
+          "castle": "GODDARD",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "ZakaT",
+          "clName": "PwnzIIpuMoR",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "3"
+        }
+      ]
+    },
+    {
+      "name": "Tremendous",
+      "languages": [
+        "ru"
+      ],
+      "clans": [
+        {
+          "name": "DarkSide",
+          "clName": "CeBRa",
+          "castle": "DION",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "Desert",
+          "clName": "Adriana",
+          "castle": "NONE",
+          "clanHall": "DION",
+          "goal": "PVP",
+          "population": "3"
+        },
+        {
+          "img": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAIAAAD3UuoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVDhPpZK7DYAwDEQzABVVJFoK1mAiGgagpmYuRqBlDDjrjGMRhPg8RZHl+J5cJHi24zznYtgsgzbCWGlB0LdYV8rtO4JXmAXMjRaEM2SptbBOyp8sABvZUhy7ExkcPbFGuaeoyTz/VNQXciz/XQSwFDYivzZ6LbpcZ2nlzmO5MZGLaAF44utHkccH8BtN9Bf+7EQIOwdbRplPB2BcAAAAAElFTkSuQmCC",
+          "name": "DevilsDozen",
+          "clName": "Britisher",
+          "isAllyLeader": true,
+          "castle": "GLUDIO",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "FreeCollectors",
+          "clName": "ScroogePerDuck",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "PVP",
+          "population": "4"
+        },
+        {
+          "name": "Fucker",
+          "clName": "PisyaKaratista",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "4"
+        },
+        {
+          "name": "Kugurumi",
+          "clName": "geBko",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "4"
+        },
+        {
+          "name": "SuZuRan",
+          "clName": "Ghul",
+          "castle": "NONE",
+          "clanHall": "NONE",
+          "goal": "Twinkies",
+          "population": "4"
         }
       ]
     }

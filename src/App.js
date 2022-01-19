@@ -35,9 +35,15 @@ function App() {
 
 function renderAllies() {
   if (data.allies != null && data.allies.length > 0) {
+    let leftNbOfAllies = findLeftColumnAlliesNb(data.allies);
     return (
-      <div>
-        {data.allies.map((ally, idx) => renderAlly(ally, idx))}
+      <div className="alliesContainer">
+        <div className="alliesContainerLeft">
+          {data.allies.slice(0, leftNbOfAllies).map((ally, idx) => renderAlly(ally, idx))}
+        </div>
+        <div className="alliesContainerRight">
+          {data.allies.slice(leftNbOfAllies).map((ally, idx) => renderAlly(ally, idx))}
+        </div>
       </div>
     );
   }
@@ -46,26 +52,28 @@ function renderAllies() {
 function renderAlly(ally, idx) {
   if (ally.clans != null && ally.clans.length > 0) {
     return (
-      <table className="ally" key={idx}>
-        <thead className="allyTableHeader">
-        <tr>
-          <th className="clanNameHeader" colSpan={2}>
-            {ally.name}
-            {ally.languages && ally.languages.map((x, idx) => {
-              return <img className="clanNameHeaderLangIcon" key={idx} src={getLanguageIconByCode(x)} alt={x}/>
-            })}
-          </th>
-          <th className="clHeader">LEADER</th>
-          <th className="otherColumn">CASTLE</th>
-          <th className="otherColumn">CLAN HALL</th>
-          <th className="otherColumn">PRIORITY</th>
-          <th className="otherColumn">MEMBERS</th>
-        </tr>
-        </thead>
-        <tbody>
-        {ally.clans.map((x, idx) => renderClan(x, idx))}
-        </tbody>
-      </table>
+      <div key={idx}>
+        <table className="allyTable">
+          <thead className="allyTableHeader">
+          <tr>
+            <th className="clanNameHeader" colSpan={3}>
+              {ally.name}
+              {ally.languages && ally.languages.map((x, idx) => {
+                return <img className="clanNameHeaderLangIcon" key={idx} src={getLanguageIconByCode(x)} alt={x}/>
+              })}
+            </th>
+            <th className="clHeader">LEADER</th>
+            <th className="otherColumn">CASTLE</th>
+            <th className="otherColumn">CLAN HALL</th>
+            <th className="otherColumn">PRIORITY</th>
+            <th className="otherColumn">MEMBERS</th>
+          </tr>
+          </thead>
+          <tbody>
+          {ally.clans.map((x, idx) => renderClan(x, idx))}
+          </tbody>
+        </table>
+      </div>
     );
   }
 }
@@ -73,6 +81,9 @@ function renderAlly(ally, idx) {
 function renderClan(clan, idx) {
   return (
     <tr key={idx}>
+      <th className="clanImgColumn">
+        {clan.img && <img className="clanImg" src={"data:image/png;base64," + clan.img} alt={""}/>}
+      </th>
       <th className="clanName">{clan.name}</th>
       <th>
         {clan.isAllyLeader && <img className="clCrown" src={crown} alt={"AL"}/>}
@@ -89,6 +100,7 @@ function renderClan(clan, idx) {
 function getGoalClassName(value) {
   if (value === "PVP") return "goalPurple";
   if (value === "PVE" || value === "AFK") return "goalWhite";
+  if (value === "Friendly") return "goalGreen";
   return "empty";
 }
 
@@ -120,6 +132,19 @@ function renderFooter() {
       })}
     </div>
   </div>);
+}
+
+function findLeftColumnAlliesNb(allies) {
+  let totalSum = 0;
+  allies.forEach(a => totalSum += a.clans.length);
+  let idx = 0;
+  let localSum = 0;
+  while (localSum < totalSum / 2) {
+    localSum += allies[idx].clans.length;
+    idx++;
+  }
+  return idx;
+
 }
 
 export default App;
