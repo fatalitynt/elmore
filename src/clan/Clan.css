@@ -1,0 +1,60 @@
+.clanRoot {
+    display: flex;
+    font-size: 12px;
+    width: 570px;
+}
+
+.clanIcon {
+    width: 25px;
+}
+
+.clanIconImage {
+    position: relative;
+    top: 2px;
+}
+
+.clanName {
+    width: 125px;
+    color: white;
+}
+
+.clanCrown {
+    width: 20px;
+}
+
+.clanLeader {
+    width: 100px;
+    color: white;
+}
+
+.clanCastle {
+    width: 75px;
+    text-align: center;
+}
+
+.clanHall {
+    width: 75px;
+    text-align: center;
+}
+
+.clanGoal {
+    width: 75px;
+    text-align: center;
+}
+
+.clanPopulation {
+    width: 75px;
+    text-align: center;
+}
+
+.goalWhite {
+    color: #ffffff;
+}
+
+.goalPurple {
+    color: #f700f7;
+}
+
+.goalGreen {
+    color: #08dd0f;
+}

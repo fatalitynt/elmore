@@ -1,10 +1,6 @@
 import './App.css';
 import data from './data.json';
 import bigLogo from './images/elmo-logo.png';
-import population1 from './images/population/population1.png';
-import population2 from './images/population/population2.png';
-import population3 from './images/population/population3.png';
-import population4 from './images/population/population4.png';
 import lang_cz from './images/lang/lang_cz.png';
 import lang_en from './images/lang/lang_en.png';
 import lang_gr from './images/lang/lang_gr.png';
@@ -13,10 +9,9 @@ import lang_por from './images/lang/lang_por.png';
 import lang_ru from './images/lang/lang_ru.png';
 import lang_sp from './images/lang/lang_sp.png';
 import lang_multi from './images/lang/lang_multi.png';
-import crown from './images/crown.png';
 import Footer from './footer/Footer';
-
-const populationImages = [population1, population2, population3, population4];
+import Clan from './clan/Clan';
+import {renderClanTableHeader} from "./clan/Clan";
 
 function App() {
   return (
@@ -54,21 +49,10 @@ function renderAllies() {
 function renderRandomClans(clans) {
   return (
     <div>
-      <table className="randomClansTable">
-        <thead className="allyTableHeader">
-          <tr>
-            <th className="randomClanNameHeader" colSpan={3}>CLANS WITHOUT ALLIANCE</th>
-            <th className="clHeader">LEADER</th>
-            <th className="otherColumn">CASTLE</th>
-            <th className="otherColumn">CLAN HALL</th>
-            <th className="otherColumn">PRIORITY</th>
-            <th className="otherColumn">MEMBERS</th>
-          </tr>
-        </thead>
-        <tbody>
-          {clans.map((clan, idx) => renderClan(clan, idx))}
-        </tbody>
-      </table>
+      <div className="randomClansTable">
+        {renderClanTableHeader(() => "CLANS WITHOUT ALLIANCE")}
+        {clans.map((clan, idx) => <div key={idx}>{Clan(clan)}</div>)}
+      </div>
     </div>
   );
 }
@@ -76,56 +60,23 @@ function renderRandomClans(clans) {
 function renderAlly(ally, idx) {
   if (ally.clans != null && ally.clans.length > 0) {
     return (
-      <div key={idx}>
-        <table className="allyTable">
-          <thead className="allyTableHeader">
-          <tr>
-            <th className="clanNameHeader" colSpan={3}>
-              {ally.name}
-              {ally.languages && ally.languages.map((x, idx) => {
-                return <img className="clanNameHeaderLangIcon" key={idx} src={getLanguageIconByCode(x)} alt={x}/>
-              })}
-            </th>
-            <th className="clHeader">LEADER</th>
-            <th className="otherColumn">CASTLE</th>
-            <th className="otherColumn">CLAN HALL</th>
-            <th className="otherColumn">PRIORITY</th>
-            <th className="otherColumn">MEMBERS</th>
-          </tr>
-          </thead>
-          <tbody>
-          {ally.clans.map((x, idx) => renderClan(x, idx))}
-          </tbody>
-        </table>
+      <div className="allyTable" key={idx}>
+        {renderClanTableHeader(() => renderAllyName(ally))}
+        {ally.clans.map((x, idx) => <div key={idx}>{Clan(x)}</div>)}
       </div>
     );
   }
 }
 
-function renderClan(clan, idx) {
+function renderAllyName(ally) {
   return (
-    <tr key={idx}>
-      <th className="clanImgColumn">
-        {clan.img && <img className="clanImg" src={"data:image/png;base64," + clan.img} alt={""}/>}
-      </th>
-      <th className="clanName">{clan.name}</th>
-      <th>
-        {clan.isAllyLeader && <img className="clCrown" src={crown} alt={"AL"}/>}
-      </th>
-      <th className="cl">{clan.clName}</th>
-      <th className={clan.castle === "NONE" ? "empty" : "castle"}>{clan.castle}</th>
-      <th className={clan.clanHall === "NONE" ? "empty" : "ch"}>{clan.clanHall}</th>
-      <th className={getGoalClassName(clan.goal)}>{clan.goal}</th>
-      <th><img src={populationImages[clan.population - 1]} alt={clan.population}/></th>
-    </tr>
+    <div className="allyName">
+      {ally.name}
+      {ally.languages && ally.languages.map((x, idx) => {
+        return <img className="clanNameHeaderLangIcon" key={idx} src={getLanguageIconByCode(x)} alt={x}/>
+      })}
+    </div>
   );
-}
-
-function getGoalClassName(value) {
-  if (value === "PVP") return "goalPurple";
-  if (value === "PVE" || value === "AFK") return "goalWhite";
-  if (value === "Friendly") return "goalGreen";
-  return "empty";
 }
 
 function getLanguageIconByCode(code) {
@@ -161,7 +112,6 @@ function findLeftColumnAlliesNb(allies) {
     idx++;
   }
   return idx;
-
 }
 
 export default App;

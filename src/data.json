@@ -609,6 +609,16 @@
   ],
   "clans": [
     {
+      "img": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAIAAAD3UuoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVDhPpZK7DYAwDEQzABVVJFoK1mAiGgagpmYuRqBlDDjrjGMRhPg8RZHl+J5cJHi24zznYtgsgzbCWGlB0LdYV8rtO4JXmAXMjRaEM2SptbBOyp8sABvZUhy7ExkcPbFGuaeoyTz/VNQXciz/XQSwFDYivzZ6LbpcZ2nlzmO5MZGLaAF44utHkccH8BtN9Bf+7EQIOwdbRplPB2BcAAAAAElFTkSuQmCC",
+      "name": "DevilsDozen",
+      "clName": "Britisher",
+      "isAllyLeader": true,
+      "castle": "GLUDIO",
+      "clanHall": "GIRAN",
+      "goal": "PVP",
+      "population": "4"
+    },
+    {
       "name": "Adventures",
       "clName": "Stab",
       "castle": "NONE",
