@@ -14,6 +14,7 @@ import lang_ru from './images/lang/lang_ru.png';
 import lang_sp from './images/lang/lang_sp.png';
 import lang_multi from './images/lang/lang_multi.png';
 import crown from './images/crown.png';
+import Footer from './footer/Footer';
 
 const populationImages = [population1, population2, population3, population4];
 
@@ -27,8 +28,9 @@ function App() {
       </div>
       <div className="content">
         {renderAllies(data)}
+        {renderRandomClans(data.clans)}
       </div>
-      {renderFooter()}
+      {Footer()}
     </div>
   );
 }
@@ -47,6 +49,28 @@ function renderAllies() {
       </div>
     );
   }
+}
+
+function renderRandomClans(clans) {
+  return (
+    <div>
+      <table className="randomClansTable">
+        <thead className="allyTableHeader">
+          <tr>
+            <th className="randomClanNameHeader" colSpan={3}>CLANS WITHOUT ALLIANCE</th>
+            <th className="clHeader">LEADER</th>
+            <th className="otherColumn">CASTLE</th>
+            <th className="otherColumn">CLAN HALL</th>
+            <th className="otherColumn">PRIORITY</th>
+            <th className="otherColumn">MEMBERS</th>
+          </tr>
+        </thead>
+        <tbody>
+          {clans.map((clan, idx) => renderClan(clan, idx))}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
 function renderAlly(ally, idx) {
@@ -106,32 +130,25 @@ function getGoalClassName(value) {
 
 function getLanguageIconByCode(code) {
   switch (code) {
-    case "cz": return lang_cz;
-    case "en": return lang_en;
-    case "gr": return lang_gr;
-    case "pol": return lang_pol;
-    case "por": return lang_por;
-    case "ru": return lang_ru;
-    case "sp": return lang_sp;
-    case "multi": return lang_multi;
-    default: return null;
+    case "cz":
+      return lang_cz;
+    case "en":
+      return lang_en;
+    case "gr":
+      return lang_gr;
+    case "pol":
+      return lang_pol;
+    case "por":
+      return lang_por;
+    case "ru":
+      return lang_ru;
+    case "sp":
+      return lang_sp;
+    case "multi":
+      return lang_multi;
+    default:
+      return null;
   }
-}
-
-const lang_icons = [lang_cz, lang_en, lang_gr, lang_pol, lang_por, lang_ru, lang_sp, lang_multi];
-const lang_names = ["Czech language", "English language", "Greek language", "Polish language", "Portuguese language", "Russian language", "Spanish language", "Multilingual"];
-
-function renderFooter() {
-  return (<div className="footer">
-    <div className="langLegend">
-      {lang_icons.map((icon, idx) => {
-        return <div className="langLegendItem" key={idx}>
-          <img className="langLegendItemIcon" src={icon} alt={lang_names[idx]}/>
-          <span style={{paddingLeft: 10}}>{lang_names[idx]}</span>
-        </div>
-      })}
-    </div>
-  </div>);
 }
 
 function findLeftColumnAlliesNb(allies) {

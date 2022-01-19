@@ -1,0 +1,51 @@
+.footer {
+    margin: 50px 10px 0;
+    padding: 15px;
+    border-top: 1px solid #808080;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.langLegend {
+    color: white;
+}
+
+.langLegendItem {
+    padding: 2px 0;
+}
+
+.langLegendItemIcon {
+    vertical-align: middle;
+    padding-bottom: 1px;
+}
+
+.priorityMarkers {
+}
+
+.priorityMarkersLetters {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.priorityMarkersMeaning {
+    text-align: left;
+}
+
+.populationLegend {
+}
+
+.populationMeaning {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.aboutLegend {
+    color: white;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.aboutLink {
+    color: #d4b664;
+}

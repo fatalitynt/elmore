@@ -609,20 +609,20 @@
   ],
   "clans": [
     {
-      "name": "NoRegret000",
-      "clName": "FastMoney",
+      "name": "Adventures",
+      "clName": "Stab",
       "castle": "NONE",
       "clanHall": "NONE",
-      "goal": "PVE",
-      "population": "3"
+      "goal": "AFK",
+      "population": "1"
     },
     {
-      "name": "NoRegret001",
-      "clName": "FastMoney2",
+      "name": "Alt255",
+      "clName": "animeshka",
       "castle": "NONE",
-      "clanHall": "NONE",
-      "goal": "PVE",
-      "population": "4"
+      "clanHall": "GLUDIO",
+      "goal": "AFK",
+      "population": "2"
     }
   ]
 }

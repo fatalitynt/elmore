@@ -46,6 +46,16 @@
     border-spacing: 0;
 }
 
+.randomClansTable {
+    margin: 20px;
+    border-spacing: 0;
+}
+
+.randomClanNameHeader {
+    width: 170px;
+    text-align: left;
+}
+
 .allyTableHeader {
     font-size: 11px;
 }
@@ -120,25 +130,4 @@
 }
 
 .empty {
-}
-
-.footer {
-    margin-top: 50px;
-    border: 3px solid green;
-    display: flex;
-    font-size: 13px;
-    margin-left: 50px;
-}
-
-.langLegend {
-    color: white;
-}
-
-.langLegendItem {
-    padding: 2px 0;
-}
-
-.langLegendItemIcon {
-    vertical-align: middle;
-    padding-bottom: 1px;
 }
