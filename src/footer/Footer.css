@@ -2,13 +2,15 @@
     margin-top: 50px;
     padding: 15px;
     border-top: 1px solid #808080;
-    display: flex;
-    justify-content: space-evenly;
     font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .langLegend {
     color: white;
+    margin-bottom: 30px;
 }
 
 .langLegendItem {
@@ -21,6 +23,7 @@
 }
 
 .priorityMarkers {
+    margin-bottom: 30px;
 }
 
 .priorityMarkersLetters {
@@ -33,6 +36,7 @@
 }
 
 .populationLegend {
+    margin-bottom: 30px;
 }
 
 .populationMeaning {
