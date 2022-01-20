@@ -41,6 +41,7 @@ function renderAllies() {
 }
 
 function renderRandomClans(clans) {
+  if (!!clans && clans.length > 0)
   return (
     <div>
       <div className="randomClansTable">
@@ -52,7 +53,7 @@ function renderRandomClans(clans) {
 }
 
 function renderAlly(ally, idx) {
-  if (ally.clans != null && ally.clans.length > 0) {
+  if (!!ally.clans && ally.clans.length > 0) {
     return (
       <div className="allyTable" key={idx}>
         {renderClanTableHeader(() => renderAllyName(ally))}
