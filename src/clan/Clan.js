@@ -57,7 +57,7 @@ function getGoalColor(value) {
 export function renderClanTableHeader(renderClanNameHeader) {
   return (
     <div className="clanTableHeader">
-      <div style={{width: 170}}>{renderClanNameHeader()}</div>
+      <div style={{width: 175}}>{renderClanNameHeader()}</div>
       <div style={{width: 100, textAlign: "left"}}>LEADER</div>
       <div style={{width: 75, textAlign: "center"}}>CASTLE</div>
       <div style={{width: 75, textAlign: "center"}}>CLAN HALL</div>
