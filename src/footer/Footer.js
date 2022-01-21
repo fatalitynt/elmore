@@ -61,7 +61,7 @@ function renderPriorityMarkers() {
           <th className="priorityMarkersLetters">AFK</th>
           <th className="priorityMarkersMeaning">"Away from keyboard" oriented clan (not very active)</th>
         </tr>
-        <tr style={{color: "#08dd0f"}}>
+        <tr style={{color: "#00bc8c"}}>
           <th className="priorityMarkersLetters">Friendly</th>
           <th className="priorityMarkersMeaning">Peace-loving (without war, help beginners)</th>
         </tr>

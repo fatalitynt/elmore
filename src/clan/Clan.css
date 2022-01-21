@@ -1,7 +1,8 @@
 .clanRoot {
     display: flex;
-    font-size: 12px;
-    width: 570px;
+    font-size: 13px;
+    width: 630px;
+    padding: 3px 16px;
 }
 
 .clanIcon {
@@ -11,12 +12,12 @@
 
 .clanIconImage {
     position: relative;
-    top: 2px;
+    top: 1px;
     right: 2px;
 }
 
 .clanName {
-    width: 125px;
+    width: 135px;
     color: white;
     text-align: left;
 }
@@ -27,28 +28,28 @@
 }
 
 .clanLeader {
-    width: 100px;
+    width: 110px;
     color: white;
     text-align: left;
 }
 
 .clanCastle {
-    width: 75px;
+    width: 85px;
     text-align: center;
 }
 
 .clanHall {
-    width: 75px;
+    width: 85px;
     text-align: center;
 }
 
 .clanGoal {
-    width: 75px;
+    width: 85px;
     text-align: center;
 }
 
 .clanPopulation {
-    width: 75px;
+    width: 85px;
     text-align: center;
 }
 
@@ -65,9 +66,12 @@
 }
 
 .clanTableHeader {
-    width: 570px;
+    height: 24px;
+    background-color: #444444;
+    width: 630px;
     display: flex;
-    padding-bottom: 5px;
+    padding: 3px 16px 13px;
     font-size: 11px;
     align-items: flex-end;
+    color: #888;
 }

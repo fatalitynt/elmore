@@ -1,6 +1,5 @@
 import './App.css';
 import data from './data.json';
-import bigLogo from './images/elmo-logo.png';
 import lang_cz from './images/lang/lang_cz.png';
 import lang_en from './images/lang/lang_en.png';
 import lang_gr from './images/lang/lang_gr.png';
@@ -17,9 +16,7 @@ function App() {
   return (
     <div className="root">
       <div className="header">
-        <div className="headerDate">SITUATION ON {data.date}</div>
-        <img src={bigLogo} alt="Logo"/>
-        <div className="headerDate"/>
+        SITUATION ON {data.date}
       </div>
       <div className="content">
         {renderAllies(data)}
@@ -57,7 +54,9 @@ function renderAlly(ally, idx) {
     return (
       <div className="allyTable" key={idx}>
         {renderClanTableHeader(() => renderAllyName(ally))}
-        {ally.clans.map((x, idx) => <div key={idx}>{Clan(x)}</div>)}
+        <div className="allyTableContent">
+          {ally.clans.map((x, idx) => <div key={idx}>{Clan(x)}</div>)}
+        </div>
       </div>
     );
   }

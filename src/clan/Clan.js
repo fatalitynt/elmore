@@ -38,31 +38,31 @@ function Clan(props) {
 }
 
 function getCastleColor(value) {
-  if (value !== "NONE") return "#08dd0f";
+  if (value !== "NONE") return "#00bc8c";
   return "#808080";
 }
 
 function getClanHallColor(value) {
-  if (value !== "NONE") return "#d4b664";
+  if (value !== "NONE") return "#f39c12";
   return "#808080";
 }
 
 function getGoalColor(value) {
   if (value === "PVP") return "#f700f7";
   if (value === "PVE" || value === "AFK") return "#ffffff";
-  if (value === "Friendly") return "#08dd0f";
+  if (value === "Friendly") return "#00bc8c";
   return "empty";
 }
 
 export function renderClanTableHeader(renderClanNameHeader) {
   return (
     <div className="clanTableHeader">
-      <div style={{width: 175}}>{renderClanNameHeader()}</div>
-      <div style={{width: 100, textAlign: "left"}}>LEADER</div>
-      <div style={{width: 75, textAlign: "center"}}>CASTLE</div>
-      <div style={{width: 75, textAlign: "center"}}>CLAN HALL</div>
-      <div style={{width: 75, textAlign: "center"}}>PRIORITY</div>
-      <div style={{width: 75, textAlign: "center"}}>MEMBERS</div>
+      <div style={{width: 185}}>{renderClanNameHeader()}</div>
+      <div style={{width: 110, textAlign: "left"}}>LEADER</div>
+      <div style={{width: 85, textAlign: "center"}}>CASTLE</div>
+      <div style={{width: 85, textAlign: "center"}}>CLAN HALL</div>
+      <div style={{width: 85, textAlign: "center"}}>PRIORITY</div>
+      <div style={{width: 85, textAlign: "center"}}>MEMBERS</div>
     </div>
   );
 }
