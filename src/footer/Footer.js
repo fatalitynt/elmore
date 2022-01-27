@@ -70,8 +70,8 @@ function renderPriorityMarkers() {
           <th className="priorityMarkersMeaning">Twinkies</th>
         </tr>
         <tr>
-          <th className="priorityMarkersLetters">NS</th>
-          <th className="priorityMarkersMeaning">Not specified (unknown)</th>
+          <th className="priorityMarkersLetters">–</th>
+          <th className="priorityMarkersMeaning">No information (unknown)</th>
         </tr>
         </tbody>
       </table>
@@ -109,8 +109,9 @@ function renderPopulation() {
 function renderAbout() {
   return (
     <div className="aboutLegend">
-      <div>{"Discord: 5ergiu5#1092"}</div>
-      <a href="elmorelab.com" className="aboutLink">{"elmorelab.com"}</a>
+      <div>{"Inspired by: 5ergiu5#1092"}</div>
+      <div>{"Made by: Fatality#9610"}</div>
+      <a href="https://elmorelab.com" className="aboutLink">{"elmorelab.com"}</a>
     </div>
   );
 

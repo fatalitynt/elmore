@@ -1,5 +1,6 @@
 import './App.css';
-import data from './data.json';
+import alliesData from './data/allies.json';
+import serverMeta from './data/serverMeta.json'
 import lang_cz from './images/lang/lang_cz.png';
 import lang_en from './images/lang/lang_en.png';
 import lang_gr from './images/lang/lang_gr.png';
@@ -12,26 +13,28 @@ import Footer from './footer/Footer';
 import Clan from './clan/Clan';
 import {renderClanTableHeader} from "./clan/Clan";
 
+const clanGoalsMap = createClanGoalMap();
+
 function App() {
   return (
     <div className="root">
       <div className="header">
-        SITUATION ON {data.date}
+        INFORMATION ON {serverMeta.Date}
       </div>
       <div className="content">
-        {renderAllies(data)}
-        {renderRandomClans(data.clans)}
+        {renderAllies(alliesData)}
+        {renderRandomClans(alliesData.ClansWithoutAlly)}
       </div>
       {Footer()}
     </div>
   );
 }
 
-function renderAllies() {
-  if (data.allies != null && data.allies.length > 0) {
+function renderAllies(alliesData) {
+  if (alliesData.Allies != null && alliesData.Allies.length > 0) {
     return (
       <div>
-        {data.allies.map((ally, idx) => renderAlly(ally, idx))}
+        {alliesData.Allies.slice(1).map((ally, idx) => renderAlly(extendAllyInfo(ally), idx))}
       </div>
     );
   }
@@ -39,34 +42,42 @@ function renderAllies() {
 
 function renderRandomClans(clans) {
   if (!!clans && clans.length > 0)
-  return (
-    <div>
-      <div className="randomClansTable">
+    return (
+      <div className="allyTable">
         {renderClanTableHeader(() => "CLANS WITHOUT ALLIANCE")}
-        {clans.map((clan, idx) => <div key={idx}>{Clan(clan)}</div>)}
+        <div className="allyTableContent">
+          {clans.filter(x => shouldRenderRandomClan(x)).map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+        </div>
       </div>
-    </div>
-  );
+    );
+}
+
+function shouldRenderRandomClan(clan) {
+  return clan.Population > 20 || !!serverMeta.ClanHalls[clan.name] || !!serverMeta.Castles[clan.Name];
 }
 
 function renderAlly(ally, idx) {
-  if (!!ally.clans && ally.clans.length > 0) {
+  if (!!ally.Clans && ally.Clans.length > 0) {
     return (
       <div className="allyTable" key={idx}>
         {renderClanTableHeader(() => renderAllyName(ally))}
         <div className="allyTableContent">
-          {ally.clans.map((x, idx) => <div key={idx}>{Clan(x)}</div>)}
+          {ally.Clans.map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
         </div>
       </div>
     );
   }
 }
 
+function renderClan(clan) {
+  return Clan(extendClanInfo(clan));
+}
+
 function renderAllyName(ally) {
   return (
     <div className="allyName">
-      {ally.name}
-      {ally.languages && ally.languages.map((x, idx) => {
+      {ally.Name}
+      {ally.Languages && ally.Languages.map((x, idx) => {
         return <img className="clanNameHeaderLangIcon" key={idx} src={getLanguageIconByCode(x)} alt={x}/>
       })}
     </div>
@@ -94,6 +105,30 @@ function getLanguageIconByCode(code) {
     default:
       return null;
   }
+}
+
+function extendAllyInfo(ally) {
+  if (!!serverMeta.AllyLanguages[ally.Name]) ally.Languages = serverMeta.AllyLanguages[ally.Name];
+  return ally;
+}
+
+function extendClanInfo(clan) {
+  if (!!serverMeta.Castles[clan.Name]) clan.Castle = serverMeta.Castles[clan.Name];
+  if (!!serverMeta.ClanHalls[clan.Name]) clan.ClanHall = serverMeta.ClanHalls[clan.Name];
+  if (!!clanGoalsMap[clan.Name]) clan.Goal = clanGoalsMap[clan.Name];
+  if (!!serverMeta.ClanIcons[clan.Name]) clan.Img = serverMeta.ClanIcons[clan.Name];
+  return clan;
+}
+
+function createClanGoalMap() {
+  let dict = {};
+  serverMeta.ClanGoals.PVP.forEach(x => dict[x] = "PVP");
+  serverMeta.ClanGoals.PVE.forEach(x => dict[x] = "PVE");
+  serverMeta.ClanGoals.PK.forEach(x => dict[x] = "PK");
+  serverMeta.ClanGoals.AFK.forEach(x => dict[x] = "AFK");
+  serverMeta.ClanGoals.Friendly.forEach(x => dict[x] = "Friendly");
+  serverMeta.ClanGoals.Twinkies.forEach(x => dict[x] = "Twinkies");
+  return dict;
 }
 
 export default App;

@@ -5,45 +5,43 @@ import population2 from "../images/population/population2.png";
 import population3 from "../images/population/population3.png";
 import population4 from "../images/population/population4.png";
 
-const populationImages = [population1, population2, population3, population4];
-
 function Clan(props) {
   return (
     <div className="clanRoot">
       <div className="clanIcon">
-        {props.img && <img className="clanIconImage" src={"data:image/png;base64," + props.img} alt={""}/>}
+        {!!props.Img && <img className="clanIconImage" src={"data:image/png;base64," + props.Img} alt={""}/>}
       </div>
       <div className="clanName">
-        {props.name}
+        {props.Name}
       </div>
       <div className="clanCrown">
-        {props.isAllyLeader && <img className="clCrown" src={crown} alt={"AL"}/>}</div>
+        {props.IsAllyLeader && <img className="clCrown" src={crown} alt={"AL"}/>}</div>
       <div className="clanLeader">
-        {props.clName}
+        {props.ClName}
       </div>
-      <div className="clanCastle" style={{color: getCastleColor(props.castle)}}>
-        {props.castle}
+      <div className="clanCastle" style={{color: getCastleColor(props.Castle)}}>
+        {props.Castle || "NONE"}
       </div>
-      <div className="clanHall" style={{color: getClanHallColor(props.clanHall)}}>
-        {props.clanHall}
+      <div className="clanHall" style={{color: getClanHallColor(props.ClanHall)}}>
+        {props.ClanHall || "NONE"}
       </div>
-      <div className="clanGoal" style={{color: getGoalColor(props.goal)}}>
-        {props.goal}
+      <div className="clanGoal" style={{color: getGoalColor(props.Goal)}}>
+        {props.Goal || "–"}
       </div>
       <div className="clanPopulation">
-        <img src={populationImages[props.population - 1]} alt={props.population}/>
+        <img src={getPopulationImage(props.Population)} alt={props.Population}/>
       </div>
     </div>
   );
 }
 
 function getCastleColor(value) {
-  if (value !== "NONE") return "#00bc8c";
+  if (value) return "#00bc8c";
   return "#808080";
 }
 
 function getClanHallColor(value) {
-  if (value !== "NONE") return "#f39c12";
+  if (value) return "#f39c12";
   return "#808080";
 }
 
@@ -52,6 +50,14 @@ function getGoalColor(value) {
   if (value === "PVE" || value === "AFK") return "#ffffff";
   if (value === "Friendly") return "#00bc8c";
   return "empty";
+}
+
+function getPopulationImage(population) {
+  if (population < 11) return population1;
+  if (population < 21) return population2;
+  if (population < 31) return population3;
+  return population4;
+
 }
 
 export function renderClanTableHeader(renderClanNameHeader) {
