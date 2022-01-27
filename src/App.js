@@ -14,6 +14,7 @@ import Clan from './clan/Clan';
 import {renderClanTableHeader} from "./clan/Clan";
 
 const clanGoalsMap = createClanGoalMap();
+const clansMap = createClansMap();
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       </div>
       <div className="content">
         {renderAllies(alliesData)}
-        {renderRandomClans(alliesData.ClansWithoutAlly)}
+        {renderClansWithoutAlly(alliesData.ClansWithoutAlly)}
       </div>
       {Footer()}
     </div>
@@ -40,13 +41,16 @@ function renderAllies(alliesData) {
   }
 }
 
-function renderRandomClans(clans) {
-  if (!!clans && clans.length > 0)
+function renderClansWithoutAlly(clanNames) {
+  if (!!clanNames && clanNames.length > 0)
     return (
       <div className="allyTable">
         {renderClanTableHeader(() => "CLANS WITHOUT ALLIANCE")}
         <div className="allyTableContent">
-          {clans.filter(x => shouldRenderRandomClan(x)).map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+          {clanNames
+            .map(x => clansMap[x])
+            .filter(x => shouldRenderRandomClan(x))
+            .map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
         </div>
       </div>
     );
@@ -57,12 +61,13 @@ function shouldRenderRandomClan(clan) {
 }
 
 function renderAlly(ally, idx) {
-  if (!!ally.Clans && ally.Clans.length > 0) {
+  const clans = ally.Clans.map(x => clansMap[x]);
+  if (clans.length > 0) {
     return (
       <div className="allyTable" key={idx}>
         {renderClanTableHeader(() => renderAllyName(ally))}
         <div className="allyTableContent">
-          {ally.Clans.map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+          {clans.map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
         </div>
       </div>
     );
@@ -128,6 +133,12 @@ function createClanGoalMap() {
   serverMeta.ClanGoals.AFK.forEach(x => dict[x] = "AFK");
   serverMeta.ClanGoals.Friendly.forEach(x => dict[x] = "Friendly");
   serverMeta.ClanGoals.Twinkies.forEach(x => dict[x] = "Twinkies");
+  return dict;
+}
+
+function createClansMap() {
+  let dict = {};
+  alliesData.Clans.forEach(x => dict[x.Name] = x);
   return dict;
 }
 

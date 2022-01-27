@@ -3,719 +3,224 @@
     {
       "Name": "300",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "iSeraphs",
-          "ClName": "Adenaa",
-          "Population": 16
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "Seraphs",
-          "ClName": "Lycanthroper",
-          "Population": 31
-        }
+        "iSeraphs",
+        "Seraphs"
       ]
     },
     {
       "Name": "Alert",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "NoRegret",
-          "ClName": "FastMoney",
-          "Population": 27
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "NoRegrett",
-          "ClName": "KurisuMakise",
-          "Population": 20
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "Red",
-          "ClName": "Pun",
-          "Population": 4
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "red2",
-          "ClName": "LeonidArkadevich",
-          "Population": 1
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Red3",
-          "ClName": "Boril",
-          "Population": 2
-        }
+        "NoRegret",
+        "NoRegrett",
+        "Red",
+        "red2",
+        "Red3"
       ]
     },
     {
       "Name": "BractwoPiwoszy",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "300",
-          "ClName": "Le0nidas",
-          "Population": 5
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "Kaszuby",
-          "ClName": "MrC",
-          "Population": 31
-        }
+        "300",
+        "Kaszuby"
       ]
     },
     {
       "Name": "CARTEL",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "2RBO",
-          "ClName": "POREVO",
-          "Population": 28
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "OTBETO4KA",
-          "ClName": "Trigger",
-          "Population": 12
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "TheWoofers",
-          "ClName": "iPes",
-          "Population": 12
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "WoofWoof",
-          "ClName": "Pes",
-          "Population": 22
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "x2RBO",
-          "ClName": "P22",
-          "Population": 21
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "xx2RBO",
-          "ClName": "OTAMAH",
-          "Population": 11
-        }
+        "2RBO",
+        "OTBETO4KA",
+        "TheWoofers",
+        "WoofWoof",
+        "x2RBO",
+        "xx2RBO"
       ]
     },
     {
       "Name": "Daemonettes",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "MutekiDo",
-          "ClName": "PinkyBrain",
-          "Population": 21
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "PrincessSlaanesh",
-          "ClName": "ErzsebetBathory",
-          "Population": 23
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "TertiumNonDatur",
-          "ClName": "Rooty",
-          "Population": 17
-        }
+        "MutekiDo",
+        "PrincessSlaanesh",
+        "TertiumNonDatur"
       ]
     },
     {
       "Name": "Empire",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "deadinside",
-          "ClName": "Whoyasse",
-          "Population": 21
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "deadoutside",
-          "ClName": "jaQc",
-          "Population": 11
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "DeathSquad",
-          "ClName": "Wilgelm",
-          "Population": 12
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Disasters",
-          "ClName": "Prawda",
-          "Population": 26
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "FarkaTeam",
-          "ClName": "Kopilka",
-          "Population": 25
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Invasion",
-          "ClName": "Nienna",
-          "Population": 32
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Say",
-          "ClName": "backstage",
-          "Population": 27
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Thugs",
-          "ClName": "Roar",
-          "Population": 31
-        }
+        "deadinside",
+        "deadoutside",
+        "DeathSquad",
+        "Disasters",
+        "FarkaTeam",
+        "Invasion",
+        "Say"
       ]
     },
     {
       "Name": "Era",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "clanSupports",
-          "ClName": "Urc",
-          "Population": 21
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "Stari4ki",
-          "ClName": "Reshala",
-          "Population": 24
-        }
+        "clanSupports",
+        "Stari4ki"
       ]
     },
     {
       "Name": "fairplay",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "69",
-          "ClName": "Principle",
-          "Population": 15
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "DominationCAT",
-          "ClName": "CyKA4eB",
-          "Population": 20
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "EagleHeart",
-          "ClName": "Polyak",
-          "Population": 19
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Explosive",
-          "ClName": "Mule",
-          "Population": 29
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Farm2",
-          "ClName": "QueenAnt",
-          "Population": 16
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "KOJI9CKu",
-          "ClName": "LuckyCraft",
-          "Population": 39
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "KOJI9CO4HUKU",
-          "ClName": "Mars1",
-          "Population": 23
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "llllllllllllll",
-          "ClName": "Donald",
-          "Population": 31
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "neverland",
-          "ClName": "Mammon",
-          "Population": 29
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "OldSchool",
-          "ClName": "Twigle",
-          "Population": 40
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "RealezaLatina",
-          "ClName": "eldoctor",
-          "Population": 34
-        }
+        "69",
+        "DominationCAT",
+        "EagleHeart",
+        "Explosive",
+        "Farm2",
+        "KOJI9CKu",
+        "KOJI9CO4HUKU",
+        "llllllllllllll",
+        "neverland",
+        "OldSchool",
+        "RealezaLatina",
+        "Thugs"
       ]
     },
     {
       "Name": "FastFood",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "BurgerKing",
-          "ClName": "322",
-          "Population": 1
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "KFC",
-          "ClName": "QueenOfCats",
-          "Population": 2
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "McDonalds",
-          "ClName": "Scozlojopus",
-          "Population": 3
-        }
+        "BurgerKing",
+        "KFC",
+        "McDonalds"
       ]
     },
     {
       "Name": "Friends",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "eXodus",
-          "ClName": "BoOm",
-          "Population": 13
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "RiseOfElephants",
-          "ClName": "Deydre",
-          "Population": 6
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "SpoilMustGoOn",
-          "ClName": "Mafr",
-          "Population": 9
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "TakeItEasy",
-          "ClName": "Toggle",
-          "Population": 16
-        }
+        "eXodus",
+        "RiseOfElephants",
+        "SpoilMustGoOn",
+        "TakeItEasy"
       ]
     },
     {
       "Name": "Imperium",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "Daeemona",
-          "ClName": "Mandragorra",
-          "Population": 20
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "LeveL",
-          "ClName": "Blbka",
-          "Population": 26
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "LeveL2",
-          "ClName": "MistrKovar",
-          "Population": 28
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "PLeveL",
-          "ClName": "ATOMBOMB",
-          "Population": 25
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Plevel2",
-          "ClName": "IvetkaBartosova",
-          "Population": 5
-        }
+        "Daeemona",
+        "LeveL",
+        "LeveL2",
+        "PLeveL",
+        "Plevel2"
       ]
     },
     {
       "Name": "Inception",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "BigBadWolf",
-          "ClName": "SanityEclipse",
-          "Population": 12
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Dreamers",
-          "ClName": "Dreamcatcher",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Varnish",
-          "ClName": "Enria",
-          "Population": 10
-        }
+        "BigBadWolf",
+        "Dreamers",
+        "Varnish"
       ]
     },
     {
       "Name": "Kingdom",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "Noxus",
-          "ClName": "xXUkraineXx",
-          "Population": 31
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "SonOfAnarchy",
-          "ClName": "Private",
-          "Population": 34
-        }
+        "Noxus",
+        "SonOfAnarchy"
       ]
     },
     {
       "Name": "KOKOH",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "PublicEnemy",
-          "ClName": "Growlin",
-          "Population": 10
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "RusElite",
-          "ClName": "MaxFox",
-          "Population": 14
-        }
+        "PublicEnemy",
+        "RusElite"
       ]
     },
     {
       "Name": "MASS",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "AslanLar",
-          "ClName": "SnowGirl",
-          "Population": 6
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "UnitedSpirit",
-          "ClName": "xLorenn",
-          "Population": 10
-        }
+        "AslanLar",
+        "UnitedSpirit"
       ]
     },
     {
       "Name": "MonkeyMadness",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "Bananas",
-          "ClName": "reet",
-          "Population": 27
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "MightyMonkeys",
-          "ClName": "LadyReet",
-          "Population": 29
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "MonkeyBusiness",
-          "ClName": "SirReet",
-          "Population": 36
-        }
+        "Bananas",
+        "MightyMonkeys",
+        "MonkeyBusiness"
       ]
     },
     {
       "Name": "North",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "Avalanche",
-          "ClName": "Zhodor",
-          "Population": 10
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "iAvalanche",
-          "ClName": "Tasadar",
-          "Population": 3
-        }
+        "Avalanche",
+        "iAvalanche"
       ]
     },
     {
       "Name": "OverPower",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "DarkShine",
-          "ClName": "ElCoffee",
-          "Population": 14
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "Nightmares",
-          "ClName": "CTABP",
-          "Population": 25
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "PotemkinBand",
-          "ClName": "ThomasEdison",
-          "Population": 5
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Saviors",
-          "ClName": "Savior",
-          "Population": 14
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Twin",
-          "ClName": "KRAFTT",
-          "Population": 14
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "WildGirls",
-          "ClName": "Vizavi",
-          "Population": 20
-        }
+        "DarkShine",
+        "Nightmares",
+        "PotemkinBand",
+        "Saviors",
+        "Twin",
+        "WildGirls"
       ]
     },
     {
       "Name": "RedWine",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "Asassin",
-          "ClName": "ASN",
-          "Population": 29
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Assassin",
-          "ClName": "CoMarKa",
-          "Population": 33
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "ERTOS",
-          "ClName": "Narzul",
-          "Population": 3
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "Escuadron731",
-          "ClName": "TheKinG",
-          "Population": 25
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "TheRevolution",
-          "ClName": "Alteza",
-          "Population": 24
-        }
+        "Asassin",
+        "Assassin",
+        "ERTOS",
+        "Escuadron731",
+        "TheRevolution"
       ]
     },
     {
       "Name": "SHARAP",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "NUBZ",
-          "ClName": "pod",
-          "Population": 40
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "TheNFs",
-          "ClName": "mPP",
-          "Population": 28
-        }
+        "NUBZ",
+        "TheNFs"
       ]
     },
     {
       "Name": "SUXCESS",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "Akatsuki",
-          "ClName": "PAlN",
-          "Population": 35
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "EruseN",
-          "ClName": "funKy",
-          "Population": 33
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "ErusseN",
-          "ClName": "ObiWan",
-          "Population": 39
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "ForeveR",
-          "ClName": "Musmuhita",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "IntensiveCare",
-          "ClName": "ICare4u",
-          "Population": 38
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "iVikings",
-          "ClName": "iOdin",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "ScumAndVillainy",
-          "ClName": "Ninlil",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "WMD",
-          "ClName": "kyb",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "ZakaT",
-          "ClName": "PwnzIIpuMoR",
-          "Population": 25
-        }
+        "Akatsuki",
+        "EruseN",
+        "ErusseN",
+        "ForeveR",
+        "IntensiveCare",
+        "iVikings",
+        "ScumAndVillainy",
+        "WMD",
+        "ZakaT"
       ]
     },
     {
       "Name": "Syndicate",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "EmergencyRoom",
-          "ClName": "FireVor",
-          "Population": 40
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "FeelFree",
-          "ClName": "FeelFree",
-          "Population": 8
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "GangBangQueen",
-          "ClName": "PickUpTheRing",
-          "Population": 22
-        }
+        "EmergencyRoom",
+        "FeelFree",
+        "GangBangQueen"
       ]
     },
     {
       "Name": "Tremendous",
       "Clans": [
-        {
-          "IsAllyLeader": false,
-          "Name": "DarkSide",
-          "ClName": "CeBRa",
-          "Population": 30
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Desert",
-          "ClName": "Adriana",
-          "Population": 19
-        },
-        {
-          "IsAllyLeader": true,
-          "Name": "DevilsDozen",
-          "ClName": "Britisher",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "FreeCollectors",
-          "ClName": "ScroogePerDuck",
-          "Population": 31
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Fucker",
-          "ClName": "PisyaKaratista",
-          "Population": 36
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "Kigurumi",
-          "ClName": "geBko",
-          "Population": 32
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "SuZuRan",
-          "ClName": "Ghul",
-          "Population": 37
-        }
+        "DarkSide",
+        "Desert",
+        "DevilsDozen",
+        "FreeCollectors",
+        "Fucker",
+        "Kigurumi",
+        "SuZuRan"
       ]
     },
     {
       "Name": "Zerg",
       "Clans": [
-        {
-          "IsAllyLeader": true,
-          "Name": "Kaipi",
-          "ClName": "AceKilla",
-          "Population": 19
-        },
-        {
-          "IsAllyLeader": false,
-          "Name": "KAIPI2",
-          "ClName": "DanceLight",
-          "Population": 15
-        }
+        "Kaipi",
+        "KAIPI2"
       ]
     }
   ],
-  "ClansWithoutAlly": [
+  "Clans": [
     {
       "IsAllyLeader": false,
       "Name": "01reg",
@@ -765,6 +270,18 @@
       "Population": 3
     },
     {
+      "IsAllyLeader": true,
+      "Name": "2RBO",
+      "ClName": "POREVO",
+      "Population": 28
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "300",
+      "ClName": "Le0nidas",
+      "Population": 5
+    },
+    {
       "IsAllyLeader": false,
       "Name": "300Spartans",
       "ClName": "Songbird",
@@ -799,6 +316,12 @@
       "Name": "4iHaHeH",
       "ClName": "Boyarski",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "69",
+      "ClName": "Principle",
+      "Population": 15
     },
     {
       "IsAllyLeader": false,
@@ -886,6 +409,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Akatsuki",
+      "ClName": "PAlN",
+      "Population": 35
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Alcoholics",
       "ClName": "MrsSm1th",
       "Population": 1
@@ -943,6 +472,12 @@
       "Name": "Ancients",
       "ClName": "Horrendum",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "AngelsOfDeath",
+      "ClName": "DreamHunter",
+      "Population": 12
     },
     {
       "IsAllyLeader": false,
@@ -1066,9 +601,27 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Asassin",
+      "ClName": "ASN",
+      "Population": 29
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "AslanLar",
+      "ClName": "SnowGirl",
+      "Population": 6
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Aspera",
       "ClName": "Dagra",
       "Population": 6
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Assassin",
+      "ClName": "CoMarKa",
+      "Population": 33
     },
     {
       "IsAllyLeader": false,
@@ -1105,6 +658,12 @@
       "Name": "AttackTitan",
       "ClName": "Kirstein",
       "Population": 16
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Avalanche",
+      "ClName": "Zhodor",
+      "Population": 10
     },
     {
       "IsAllyLeader": false,
@@ -1159,6 +718,12 @@
       "Name": "BALTAPUKIAI",
       "ClName": "RiMouse",
       "Population": 4
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Bananas",
+      "ClName": "reet",
+      "Population": 27
     },
     {
       "IsAllyLeader": false,
@@ -1237,6 +802,18 @@
       "Name": "biblioteka",
       "ClName": "TOJICTO3AD",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "BigBadWolf",
+      "ClName": "SanityEclipse",
+      "Population": 12
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "BigDick",
+      "ClName": "SHEa",
+      "Population": 4
     },
     {
       "IsAllyLeader": false,
@@ -1492,6 +1069,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "BurgerKing",
+      "ClName": "322",
+      "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "BURUNDUKI",
       "ClName": "SSC",
       "Population": 1
@@ -1651,6 +1234,12 @@
       "Name": "ClanLicciardi",
       "ClName": "LadyBoy",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "clanSupports",
+      "ClName": "Urc",
+      "Population": 21
     },
     {
       "IsAllyLeader": false,
@@ -1852,6 +1441,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Daeemona",
+      "ClName": "Mandragorra",
+      "Population": 20
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "daldalUpal",
       "ClName": "original",
       "Population": 11
@@ -1900,9 +1495,21 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "DarkShine",
+      "ClName": "ElCoffee",
+      "Population": 14
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "DarkShineStaff",
       "ClName": "StaffManager",
       "Population": 6
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "DarkSide",
+      "ClName": "CeBRa",
+      "Population": 30
     },
     {
       "IsAllyLeader": false,
@@ -1917,10 +1524,22 @@
       "Population": 15
     },
     {
+      "IsAllyLeader": true,
+      "Name": "deadinside",
+      "ClName": "Whoyasse",
+      "Population": 21
+    },
+    {
       "IsAllyLeader": false,
       "Name": "DeadlySilence",
       "ClName": "moobzeg",
       "Population": 12
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "deadoutside",
+      "ClName": "jaQc",
+      "Population": 11
     },
     {
       "IsAllyLeader": false,
@@ -1933,6 +1552,12 @@
       "Name": "DeathNote",
       "ClName": "Umri",
       "Population": 5
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "DeathSquad",
+      "ClName": "Wilgelm",
+      "Population": 12
     },
     {
       "IsAllyLeader": false,
@@ -1963,6 +1588,12 @@
       "Name": "Den69",
       "ClName": "Granat",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Desert",
+      "ClName": "Adriana",
+      "Population": 19
     },
     {
       "IsAllyLeader": false,
@@ -1999,6 +1630,12 @@
       "Name": "Deviate",
       "ClName": "Penrose",
       "Population": 15
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "DevilsDozen",
+      "ClName": "Britisher",
+      "Population": 36
     },
     {
       "IsAllyLeader": false,
@@ -2092,6 +1729,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Disasters",
+      "ClName": "Prawda",
+      "Population": 26
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Disorder",
       "ClName": "Disorder",
       "Population": 1
@@ -2176,9 +1819,21 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "DominationCAT",
+      "ClName": "CyKA4eB",
+      "Population": 20
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "DominusMortis",
       "ClName": "CryoFlame",
       "Population": 23
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "DOOM",
+      "ClName": "Milim",
+      "Population": 6
     },
     {
       "IsAllyLeader": false,
@@ -2191,6 +1846,12 @@
       "Name": "Dreamer",
       "ClName": "HoneyCorgi",
       "Population": 6
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Dreamers",
+      "ClName": "Dreamcatcher",
+      "Population": 36
     },
     {
       "IsAllyLeader": false,
@@ -2281,6 +1942,12 @@
       "Name": "EAC",
       "ClName": "EACz",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "EagleHeart",
+      "ClName": "Polyak",
+      "Population": 19
     },
     {
       "IsAllyLeader": false,
@@ -2392,6 +2059,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "EmergencyRoom",
+      "ClName": "FireVor",
+      "Population": 40
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Emperium",
       "ClName": "IIpuxJIoII",
       "Population": 7
@@ -2446,6 +2119,30 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "ERTOS",
+      "ClName": "Narzul",
+      "Population": 3
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "EruseN",
+      "ClName": "funKy",
+      "Population": 33
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "ErusseN",
+      "ClName": "ObiWan",
+      "Population": 39
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Escuadron731",
+      "ClName": "TheKinG",
+      "Population": 25
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Espada",
       "ClName": "MRAZ",
       "Population": 1
@@ -2487,16 +2184,34 @@
       "Population": 1
     },
     {
+      "IsAllyLeader": true,
+      "Name": "Exiles",
+      "ClName": "SaVOIr",
+      "Population": 30
+    },
+    {
       "IsAllyLeader": false,
       "Name": "Exodo",
       "ClName": "Chupitoelpame",
       "Population": 1
     },
     {
+      "IsAllyLeader": true,
+      "Name": "eXodus",
+      "ClName": "BoOm",
+      "Population": 13
+    },
+    {
       "IsAllyLeader": false,
       "Name": "EXPERT",
       "ClName": "RLT",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Explosive",
+      "ClName": "Mule",
+      "Population": 29
     },
     {
       "IsAllyLeader": false,
@@ -2554,6 +2269,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "FarkaTeam",
+      "ClName": "Kopilka",
+      "Population": 25
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "FarLine",
       "ClName": "Ava",
       "Population": 1
@@ -2566,6 +2287,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Farm2",
+      "ClName": "QueenAnt",
+      "Population": 16
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "FastFood",
       "ClName": "BurgerKing",
       "Population": 1
@@ -2575,6 +2302,12 @@
       "Name": "Fatality",
       "ClName": "FireFighter",
       "Population": 4
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "FeelFree",
+      "ClName": "FeelFree",
+      "Population": 8
     },
     {
       "IsAllyLeader": false,
@@ -2623,6 +2356,12 @@
       "Name": "FORCE",
       "ClName": "TBOUxDED",
       "Population": 5
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "ForeveR",
+      "ClName": "Musmuhita",
+      "Population": 36
     },
     {
       "IsAllyLeader": false,
@@ -2698,6 +2437,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "FreeCollectors",
+      "ClName": "ScroogePerDuck",
+      "Population": 31
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Freedom",
       "ClName": "Jin",
       "Population": 8
@@ -2746,6 +2491,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Fucker",
+      "ClName": "PisyaKaratista",
+      "Population": 36
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "FuriousAngels",
       "ClName": "Dovgan",
       "Population": 8
@@ -2779,6 +2530,12 @@
       "Name": "GameMasters",
       "ClName": "TomaElf",
       "Population": 4
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "GangBangQueen",
+      "ClName": "PickUpTheRing",
+      "Population": 22
     },
     {
       "IsAllyLeader": false,
@@ -3190,6 +2947,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "iAvalanche",
+      "ClName": "Tasadar",
+      "Population": 3
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Iggipop",
       "ClName": "DonPezon",
       "Population": 3
@@ -3292,6 +3055,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "IntensiveCare",
+      "ClName": "ICare4u",
+      "Population": 38
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Intolerance",
       "ClName": "h8yall",
       "Population": 1
@@ -3307,6 +3076,12 @@
       "Name": "Invaders",
       "ClName": "Suetolog",
       "Population": 8
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Invasion",
+      "ClName": "Nienna",
+      "Population": 32
     },
     {
       "IsAllyLeader": false,
@@ -3328,6 +3103,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "iSeraphs",
+      "ClName": "Adenaa",
+      "Population": 16
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "IsForce",
       "ClName": "PATRAO",
       "Population": 9
@@ -3343,6 +3124,12 @@
       "Name": "Ivan",
       "ClName": "FraerokFarmerok",
       "Population": 7
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "iVikings",
+      "ClName": "iOdin",
+      "Population": 36
     },
     {
       "IsAllyLeader": false,
@@ -3453,6 +3240,18 @@
       "Population": 1
     },
     {
+      "IsAllyLeader": true,
+      "Name": "Kaipi",
+      "ClName": "AceKilla",
+      "Population": 19
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "KAIPI2",
+      "ClName": "DanceLight",
+      "Population": 15
+    },
+    {
       "IsAllyLeader": false,
       "Name": "Kamelot",
       "ClName": "xRocK",
@@ -3465,16 +3264,34 @@
       "Population": 5
     },
     {
+      "IsAllyLeader": true,
+      "Name": "Kaszuby",
+      "ClName": "MrC",
+      "Population": 31
+    },
+    {
       "IsAllyLeader": false,
       "Name": "KEWK",
       "ClName": "xxx4",
       "Population": 1
     },
     {
+      "IsAllyLeader": true,
+      "Name": "KFC",
+      "ClName": "QueenOfCats",
+      "Population": 2
+    },
+    {
       "IsAllyLeader": false,
       "Name": "KGHM",
       "ClName": "BrudnyCraft",
       "Population": 7
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Kigurumi",
+      "ClName": "geBko",
+      "Population": 32
     },
     {
       "IsAllyLeader": false,
@@ -3487,6 +3304,12 @@
       "Name": "KillerInstinct",
       "ClName": "Killahertz",
       "Population": 4
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Killuminati",
+      "ClName": "ORIGINAL420",
+      "Population": 19
     },
     {
       "IsAllyLeader": false,
@@ -3529,6 +3352,18 @@
       "Name": "KnightsOfSunrise",
       "ClName": "OProfeta",
       "Population": 22
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "KOJI9CKu",
+      "ClName": "LuckyCraft",
+      "Population": 39
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "KOJI9CO4HUKU",
+      "ClName": "Mars1",
+      "Population": 23
     },
     {
       "IsAllyLeader": false,
@@ -3669,6 +3504,12 @@
       "Population": 5
     },
     {
+      "IsAllyLeader": true,
+      "Name": "LegacyOfLineage",
+      "ClName": "Alizee",
+      "Population": 32
+    },
+    {
       "IsAllyLeader": false,
       "Name": "LegacyOfWar",
       "ClName": "Baks",
@@ -3715,6 +3556,18 @@
       "Name": "LethalArmy",
       "ClName": "ARMandoCraft",
       "Population": 10
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "LeveL",
+      "ClName": "Blbka",
+      "Population": 26
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "LeveL2",
+      "ClName": "MistrKovar",
+      "Population": 28
     },
     {
       "IsAllyLeader": false,
@@ -3775,6 +3628,12 @@
       "Name": "LittleWorld",
       "ClName": "LittleAnnie",
       "Population": 7
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "llllllllllllll",
+      "ClName": "Donald",
+      "Population": 31
     },
     {
       "IsAllyLeader": false,
@@ -4006,6 +3865,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "McDonalds",
+      "ClName": "Scozlojopus",
+      "Population": 3
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Meatballz",
       "ClName": "zai",
       "Population": 3
@@ -4081,6 +3946,12 @@
       "Name": "MiddleEarth",
       "ClName": "PSIX",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "MightyMonkeys",
+      "ClName": "LadyReet",
+      "Population": 29
     },
     {
       "IsAllyLeader": false,
@@ -4179,6 +4050,12 @@
       "Population": 4
     },
     {
+      "IsAllyLeader": true,
+      "Name": "MonkeyBusiness",
+      "ClName": "SirReet",
+      "Population": 36
+    },
+    {
       "IsAllyLeader": false,
       "Name": "MonsterHunter",
       "ClName": "teKi",
@@ -4213,6 +4090,12 @@
       "Name": "MuPHbIu",
       "ClName": "FIORENTINA",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "MutekiDo",
+      "ClName": "PinkyBrain",
+      "Population": 21
     },
     {
       "IsAllyLeader": false,
@@ -4293,6 +4176,12 @@
       "Population": 1
     },
     {
+      "IsAllyLeader": true,
+      "Name": "Ndongo",
+      "ClName": "Gashtan",
+      "Population": 13
+    },
+    {
       "IsAllyLeader": false,
       "Name": "NecDeusIntersit",
       "ClName": "Netflix",
@@ -4321,6 +4210,12 @@
       "Name": "Netral",
       "ClName": "Kmelik",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "neverland",
+      "ClName": "Mammon",
+      "Population": 29
     },
     {
       "IsAllyLeader": false,
@@ -4375,6 +4270,12 @@
       "Name": "NightFall",
       "ClName": "Mustata",
       "Population": 6
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Nightmares",
+      "ClName": "CTABP",
+      "Population": 25
     },
     {
       "IsAllyLeader": false,
@@ -4438,6 +4339,18 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "NoRegret",
+      "ClName": "FastMoney",
+      "Population": 27
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "NoRegrett",
+      "ClName": "KurisuMakise",
+      "Population": 20
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "NORKa",
       "ClName": "Thorgrimm",
       "Population": 3
@@ -4473,6 +4386,12 @@
       "Population": 17
     },
     {
+      "IsAllyLeader": true,
+      "Name": "Noxus",
+      "ClName": "xXUkraineXx",
+      "Population": 31
+    },
+    {
       "IsAllyLeader": false,
       "Name": "NPC",
       "ClName": "Margarin",
@@ -4483,6 +4402,12 @@
       "Name": "Nu3a4eM",
       "ClName": "Bollog",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "NUBZ",
+      "ClName": "pod",
+      "Population": 40
     },
     {
       "IsAllyLeader": false,
@@ -4537,6 +4462,12 @@
       "Name": "OLDsch00L",
       "ClName": "pickup",
       "Population": 2
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "OldSchool",
+      "ClName": "Twigle",
+      "Population": 40
     },
     {
       "IsAllyLeader": false,
@@ -4639,6 +4570,12 @@
       "Name": "OsNoia",
       "ClName": "ResouceShopping",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "OTBETO4KA",
+      "ClName": "Trigger",
+      "Population": 12
     },
     {
       "IsAllyLeader": false,
@@ -4804,6 +4741,18 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "PLeveL",
+      "ClName": "ATOMBOMB",
+      "Population": 25
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Plevel2",
+      "ClName": "IvetkaBartosova",
+      "Population": 5
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Plumbus",
       "ClName": "MopDa",
       "Population": 16
@@ -4846,6 +4795,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "PotemkinBand",
+      "ClName": "ThomasEdison",
+      "Population": 5
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "PouTsoPernoveS",
       "ClName": "EM0RaS",
       "Population": 3
@@ -4861,6 +4816,12 @@
       "Name": "Primorskii",
       "ClName": "HinomorI",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "PrincessSlaanesh",
+      "ClName": "ErzsebetBathory",
+      "Population": 23
     },
     {
       "IsAllyLeader": false,
@@ -4903,6 +4864,12 @@
       "Name": "Psarii",
       "ClName": "MPA3uHA",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "PublicEnemy",
+      "ClName": "Growlin",
+      "Population": 10
     },
     {
       "IsAllyLeader": false,
@@ -4984,6 +4951,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "RealezaLatina",
+      "ClName": "eldoctor",
+      "Population": 34
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Reapers",
       "ClName": "Pas1k",
       "Population": 9
@@ -5011,6 +4984,24 @@
       "Name": "Reckless",
       "ClName": "Nekra",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Red",
+      "ClName": "Pun",
+      "Population": 4
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "red2",
+      "ClName": "LeonidArkadevich",
+      "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Red3",
+      "ClName": "Boril",
+      "Population": 2
     },
     {
       "IsAllyLeader": false,
@@ -5170,6 +5161,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "RiseOfElephants",
+      "ClName": "Deydre",
+      "Population": 6
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "RiverShakrs",
       "ClName": "EclipsLight",
       "Population": 3
@@ -5239,6 +5236,12 @@
       "Name": "RunAway",
       "ClName": "Theoden",
       "Population": 4
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "RusElite",
+      "ClName": "MaxFox",
+      "Population": 14
     },
     {
       "IsAllyLeader": false,
@@ -5320,6 +5323,18 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "Saviors",
+      "ClName": "Savior",
+      "Population": 14
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Say",
+      "ClName": "backstage",
+      "Population": 27
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "SayNoMore",
       "ClName": "Miku",
       "Population": 15
@@ -5338,6 +5353,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "ScumAndVillainy",
+      "ClName": "Ninlil",
+      "Population": 36
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "SelfDefence",
       "ClName": "XxCRUSADERxX",
       "Population": 3
@@ -5353,6 +5374,12 @@
       "Name": "Sent1nel",
       "ClName": "MuHuMuM",
       "Population": 3
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Seraphs",
+      "ClName": "Lycanthroper",
+      "Population": 31
     },
     {
       "IsAllyLeader": false,
@@ -5481,6 +5508,12 @@
       "Population": 5
     },
     {
+      "IsAllyLeader": true,
+      "Name": "SkyWarriors",
+      "ClName": "Rendov",
+      "Population": 8
+    },
+    {
       "IsAllyLeader": false,
       "Name": "SmietniK",
       "ClName": "GrubasS",
@@ -5554,6 +5587,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "SonOfAnarchy",
+      "ClName": "Private",
+      "Population": 34
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Sopranos",
       "ClName": "Gvaraez",
       "Population": 4
@@ -5596,6 +5635,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "SpoilMustGoOn",
+      "ClName": "Mafr",
+      "Population": 9
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Squad",
       "ClName": "Hooka",
       "Population": 1
@@ -5623,6 +5668,12 @@
       "Name": "StaR",
       "ClName": "Faerie",
       "Population": 2
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Stari4ki",
+      "ClName": "Reshala",
+      "Population": 24
     },
     {
       "IsAllyLeader": false,
@@ -5698,6 +5749,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "SuZuRan",
+      "ClName": "Ghul",
+      "Population": 37
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "Svenska",
       "ClName": "FatDwemer",
       "Population": 3
@@ -5752,6 +5809,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "TakeItEasy",
+      "ClName": "Toggle",
+      "Population": 16
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "TaPaKaHbl",
       "ClName": "FalkoJiko",
       "Population": 1
@@ -5773,6 +5836,12 @@
       "Name": "Team",
       "ClName": "MsPozitive",
       "Population": 7
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "TeamSupreme",
+      "ClName": "gh0m",
+      "Population": 17
     },
     {
       "IsAllyLeader": false,
@@ -5821,6 +5890,12 @@
       "Name": "TepeMok",
       "ClName": "Edwina",
       "Population": 5
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "TertiumNonDatur",
+      "ClName": "Rooty",
+      "Population": 17
     },
     {
       "IsAllyLeader": false,
@@ -5926,6 +6001,18 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "TheNFs",
+      "ClName": "mPP",
+      "Population": 28
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "TheRevolution",
+      "ClName": "Alteza",
+      "Population": 24
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "TheRisingSun",
       "ClName": "Kisullya",
       "Population": 6
@@ -5956,9 +6043,21 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "TheWoofers",
+      "ClName": "iPes",
+      "Population": 12
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "ThreeDaysGrace",
       "ClName": "DanielDefoe",
       "Population": 1
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Thugs",
+      "ClName": "Roar",
+      "Population": 31
     },
     {
       "IsAllyLeader": false,
@@ -5971,6 +6070,12 @@
       "Name": "ThugzMansion",
       "ClName": "Relampago",
       "Population": 33
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "Thunder",
+      "ClName": "Bosconovitch",
+      "Population": 9
     },
     {
       "IsAllyLeader": false,
@@ -6111,6 +6216,12 @@
       "Population": 10
     },
     {
+      "IsAllyLeader": true,
+      "Name": "TroubleMakers",
+      "ClName": "M4fioza",
+      "Population": 2
+    },
+    {
       "IsAllyLeader": false,
       "Name": "TrpasliciMafie",
       "ClName": "Vilik",
@@ -6145,6 +6256,12 @@
       "Name": "TVIN",
       "ClName": "Torim",
       "Population": 2
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Twin",
+      "ClName": "KRAFTT",
+      "Population": 14
     },
     {
       "IsAllyLeader": false,
@@ -6225,10 +6342,22 @@
       "Population": 5
     },
     {
+      "IsAllyLeader": true,
+      "Name": "UnitedSpirit",
+      "ClName": "xLorenn",
+      "Population": 10
+    },
+    {
       "IsAllyLeader": false,
       "Name": "UnitedWeAre",
       "ClName": "JaraDey",
       "Population": 29
+    },
+    {
+      "IsAllyLeader": true,
+      "Name": "UnknownSoldier",
+      "ClName": "TutanKamon",
+      "Population": 1
     },
     {
       "IsAllyLeader": false,
@@ -6265,6 +6394,12 @@
       "Name": "Vanishing",
       "ClName": "Aska",
       "Population": 2
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "Varnish",
+      "ClName": "Enria",
+      "Population": 10
     },
     {
       "IsAllyLeader": false,
@@ -6502,6 +6637,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "WildGirls",
+      "ClName": "Vizavi",
+      "Population": 20
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "WindOfPower",
       "ClName": "GarrafitaDe10",
       "Population": 14
@@ -6532,6 +6673,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "WMD",
+      "ClName": "kyb",
+      "Population": 36
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "WMD2",
       "ClName": "Feawen",
       "Population": 16
@@ -6547,6 +6694,12 @@
       "Name": "WolfPack",
       "ClName": "NeutrO",
       "Population": 2
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "WoofWoof",
+      "ClName": "Pes",
+      "Population": 22
     },
     {
       "IsAllyLeader": false,
@@ -6586,6 +6739,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "x2RBO",
+      "ClName": "P22",
+      "Population": 21
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "xcx",
       "ClName": "mangyst",
       "Population": 1
@@ -6613,6 +6772,12 @@
       "Name": "XTeam",
       "ClName": "Exaron",
       "Population": 6
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "xx2RBO",
+      "ClName": "OTAMAH",
+      "Population": 11
     },
     {
       "IsAllyLeader": false,
@@ -6658,6 +6823,12 @@
     },
     {
       "IsAllyLeader": false,
+      "Name": "ZakaT",
+      "ClName": "PwnzIIpuMoR",
+      "Population": 25
+    },
+    {
+      "IsAllyLeader": false,
       "Name": "ZaliaBalta",
       "ClName": "VaiBelis",
       "Population": 2
@@ -6698,5 +6869,1004 @@
       "ClName": "SS43",
       "Population": 16
     }
+  ],
+  "ClansWithoutAlly": [
+    "01reg",
+    "044",
+    "12345",
+    "12Gods",
+    "1314",
+    "1manWH",
+    "1st",
+    "21April",
+    "300Spartans",
+    "3KB",
+    "3oJloTo",
+    "4donSQ",
+    "4HoursForNothing",
+    "4iHaHeH",
+    "6ypJIakuHaBoJIre",
+    "СТОПТАРАКАН",
+    "Хаверим",
+    "ABVG",
+    "ACA",
+    "Acumen",
+    "Addicts",
+    "Aden",
+    "AdenBaseJumpers",
+    "Adepts",
+    "Adeptus",
+    "Adventures",
+    "Aers",
+    "Aggressive",
+    "Alcoholics",
+    "Aleister",
+    "Alkar",
+    "Alkocholicy",
+    "Alone",
+    "Alt254",
+    "Alt255",
+    "Amazon",
+    "AnalKarnaval",
+    "Ancients",
+    "AngryCats",
+    "Anitex",
+    "AntiWork",
+    "AOUR",
+    "Apatiya",
+    "Aphex",
+    "Apocalypse",
+    "Aprior",
+    "Apriori",
+    "Apriory",
+    "Arcanits",
+    "Areia",
+    "Arigato",
+    "ARMAGEDON",
+    "ArmiaRezerw",
+    "ArmorGradeC",
+    "ArmyOfLamers",
+    "Arsenal",
+    "ArthOfHonnor",
+    "ArtisansGuild",
+    "Aspera",
+    "Astra",
+    "AstralGate",
+    "Asylum",
+    "Atata",
+    "ATLANTIS",
+    "AttackTitan",
+    "AvengerS",
+    "AvePapa",
+    "AVTOVOKZAL",
+    "babydogs",
+    "BackToBack",
+    "BadBoys",
+    "BadCompany",
+    "BalrogFlames",
+    "BALTAPUKIAI",
+    "bank",
+    "BankofBoomerland",
+    "BAPEHbE",
+    "BAPHA",
+    "BARRAS",
+    "BasE",
+    "Bazaar",
+    "BBL",
+    "Bears",
+    "BeTePaHu",
+    "Bewbs",
+    "BeyondTheObvious",
+    "biblioteka",
+    "Biisop",
+    "BioHazard",
+    "BlackBlads",
+    "BlackHeather",
+    "BlackLegion",
+    "BlackMirror",
+    "BlackOcean",
+    "blacksails",
+    "BlackSunEmpire",
+    "BlackWhite",
+    "Blades",
+    "Blazers",
+    "BlodyElfs",
+    "BloodDragon",
+    "Bloodrage",
+    "BloodStar",
+    "BloodyAre",
+    "BloodyPirates",
+    "BLxAcademy",
+    "BombSquad",
+    "Bomji",
+    "Booking",
+    "BookllKing",
+    "BooM",
+    "born",
+    "BornToClutch",
+    "Bot",
+    "BrazilianSquad",
+    "Breakout",
+    "Bregan",
+    "BreganDaerthe",
+    "Brie",
+    "Brigadierii",
+    "BroForce",
+    "BROMKA",
+    "BronToKill",
+    "BrotherHooD",
+    "BRZD",
+    "BSH",
+    "BubbleGum",
+    "BuffsPro",
+    "BuHoBaTbI3Be3DbI",
+    "BURUNDUKI",
+    "Business",
+    "BVLGARI",
+    "C14",
+    "CaliburKnights",
+    "Callejeros",
+    "Cancel",
+    "CARLSBERG",
+    "Carnival",
+    "Cartel",
+    "Casual",
+    "CatamyHome",
+    "Catharsis",
+    "CatsAndDwarves",
+    "CCCP",
+    "CELESTIALES",
+    "Chaos",
+    "ChecMate",
+    "Chelny",
+    "Chillax",
+    "Chillout",
+    "ChinaTown",
+    "ChocolateSexual",
+    "Cicciolina",
+    "Clan",
+    "ClanBank",
+    "ClanLicciardi",
+    "CLF",
+    "Cllan",
+    "ClockworkOranges",
+    "Coffeemans",
+    "CokeSlaves",
+    "Conflict",
+    "Copium",
+    "Corp",
+    "Cortel",
+    "Council",
+    "Covid19",
+    "Covid22",
+    "CrackWatch",
+    "CRAFT",
+    "CraftAndSpoil",
+    "CraftandSpoilInc",
+    "CraftPro",
+    "Craftsland",
+    "CrazyBone",
+    "CrazyPencilFirm",
+    "CraZySmiLe",
+    "Creative",
+    "Creeps",
+    "crew",
+    "Criminals",
+    "Cthulhu",
+    "CtrlAltDelicious",
+    "Cu6upb",
+    "CuPoTKu",
+    "CursedTroopers",
+    "CyberSoul",
+    "Cypress",
+    "CzechSlovakia",
+    "daldalUpal",
+    "Danerdel",
+    "Darida",
+    "DarkArmy",
+    "Darkforest",
+    "DarkGuards",
+    "DarkneSS",
+    "DarkOfSun",
+    "DarkShineStaff",
+    "DarkSupports",
+    "DarkWarriors",
+    "DeadlySilence",
+    "Death",
+    "DeathNote",
+    "DECAHT",
+    "DeFi",
+    "Degunino",
+    "Delicious",
+    "Den69",
+    "DESPASITO",
+    "DesperateWars",
+    "DetCad",
+    "DeusesBR",
+    "Dev",
+    "Deviate",
+    "DevNull",
+    "di4",
+    "DiabloZ",
+    "Dibility",
+    "Die",
+    "DieForWH",
+    "DieHard",
+    "dieRatten",
+    "DieSellers",
+    "DigDildo",
+    "DigitalDevils",
+    "DimmuBorgir",
+    "DinDinDon",
+    "DirtyBastards",
+    "Disaster",
+    "Disorder",
+    "Divine",
+    "DivineCourage",
+    "DIVZ",
+    "DIVZ2",
+    "Djast",
+    "DlJlJM",
+    "Dobermans",
+    "Dobr9ki",
+    "DODA",
+    "DOGE",
+    "DOLLS",
+    "Dom1nantS",
+    "DominantS",
+    "DominusMortis",
+    "DramaMakers",
+    "Dreamer",
+    "Drifters",
+    "Dron",
+    "DroppedByOgre",
+    "DrunkTeam",
+    "DTF",
+    "DuckyQuack",
+    "DumSpiroSpero",
+    "DVProstoP",
+    "DwarfForever",
+    "DwarfLegion",
+    "DwarfLivesMatter",
+    "DwarvenCompany",
+    "DwarvenUnion",
+    "e2e4",
+    "EAC",
+    "Easy",
+    "EasyBreezy",
+    "Edhellond",
+    "Effect",
+    "EHOT",
+    "EHOTbl",
+    "EHOTUKU",
+    "ElClanDeLaGente",
+    "ElectroInc",
+    "Elemental",
+    "ElHueso",
+    "ElixirOfLife",
+    "elpy",
+    "ELTigers",
+    "Elvss",
+    "Elysian",
+    "Elysium",
+    "EmeraldDream",
+    "Emperium",
+    "Enclave",
+    "Enemy",
+    "Engrave",
+    "Enigma",
+    "ENTER",
+    "EnVergaDura",
+    "Epica",
+    "ErSitio",
+    "Espada",
+    "ETC",
+    "Eternity",
+    "evdbio",
+    "EventHorizon",
+    "Evictis",
+    "Evil",
+    "Exodo",
+    "EXPERT",
+    "Express",
+    "EXTERMINATUS",
+    "ExtraBag",
+    "Extreme",
+    "Ezhiki",
+    "FaceToFace",
+    "Famous",
+    "Fantasmagoriya",
+    "Fantom",
+    "FarLine",
+    "Farm",
+    "FastFood",
+    "Fatality",
+    "Felix",
+    "FellowShip",
+    "Ferarri",
+    "FireSalamader",
+    "FireVortex",
+    "FlatEarthSociety",
+    "Flawless",
+    "FORCE",
+    "ForeverAlone",
+    "ForgeOfTheGods",
+    "Forgotten",
+    "ForMightAndGlory",
+    "FornsSwins",
+    "FortNox",
+    "FortressOfPeace",
+    "ForumGe",
+    "Fox",
+    "Fraers",
+    "FragOrDie",
+    "Free",
+    "Freedom",
+    "Freedoms",
+    "Freiheit",
+    "Friendlist",
+    "FriendS",
+    "FriendsOfDragons",
+    "fromUkraine",
+    "Frutella",
+    "FuriousAngels",
+    "FuriousCorp",
+    "Fury",
+    "Future",
+    "Galaxy",
+    "GameMasters",
+    "Ganja",
+    "Garden",
+    "Garrison",
+    "Gazprom",
+    "Geld",
+    "gemcag",
+    "GenerationP",
+    "Genocide",
+    "GetFight",
+    "GGcrew",
+    "GGnore",
+    "GGWP",
+    "Ghostbusters",
+    "Gigabyte",
+    "GnomiTOP",
+    "Gnomka",
+    "go2hell",
+    "GoBackPvE",
+    "Godlike",
+    "GoGoGo",
+    "Gold",
+    "GoldenCrowns",
+    "GoldenDragons",
+    "GoldenHamsters",
+    "Goosy",
+    "Grande",
+    "GRAVICAPA",
+    "GreekForces",
+    "GreekTeam",
+    "GreenMartians",
+    "Grosis",
+    "GroundDamage",
+    "GRUPPIROVKA",
+    "Guards",
+    "GZN",
+    "Hamsters",
+    "Happyclan",
+    "HARDLINE",
+    "Harmonium",
+    "Harmony",
+    "HastaLaChancla",
+    "HelForce",
+    "HeliosPrime",
+    "HellAngels",
+    "HellFire",
+    "HellFish",
+    "HereAndNow",
+    "HHHHH",
+    "HiBro",
+    "HispanicKingdoms",
+    "Hispanos",
+    "HolyReaper",
+    "Home",
+    "HomelessStyle",
+    "HoneyKingdom",
+    "HongKong",
+    "Horde",
+    "Horizont",
+    "HotAss",
+    "HotelHasBeen",
+    "HungarianArmy",
+    "HungarianGhosts",
+    "Hungarikum",
+    "Huntears",
+    "HunTer",
+    "HuntersGuild",
+    "Hus",
+    "Hybrid",
+    "Iggipop",
+    "IIaPuTeT",
+    "Illuminati",
+    "Illusion",
+    "Imperials",
+    "Imperium",
+    "Incects",
+    "IndependentS",
+    "InderludeExodus",
+    "Indigo",
+    "InitialD",
+    "InnerCircle",
+    "inquisition",
+    "Inquisitors",
+    "iNsiDe",
+    "Insolent",
+    "INSTAGRAM",
+    "Intolerance",
+    "INtorZET",
+    "Invaders",
+    "Investors",
+    "InVinoVeritas",
+    "IronBank",
+    "IsForce",
+    "ItsMagic",
+    "Ivan",
+    "J12",
+    "Jajaja",
+    "JCVD",
+    "JebacPIS",
+    "JIocu",
+    "JOLLYROGER",
+    "JollyRogers",
+    "JubiladoViolento",
+    "Judges",
+    "JungleForces",
+    "Just4fun",
+    "JustForCraft",
+    "Justice",
+    "JustOfWar",
+    "JustOfWars",
+    "K71",
+    "Ka4ki",
+    "KACA",
+    "Kamelot",
+    "Kamenaci",
+    "KEWK",
+    "KGHM",
+    "KillerBeez",
+    "KillerInstinct",
+    "KinderSurprise",
+    "KingOfSuports",
+    "KJIaHConpaHo",
+    "Knedliks",
+    "KNewCity",
+    "KnifeParty",
+    "KnightsOfSunrise",
+    "KOJll9Cku",
+    "KokotyNaRusy",
+    "Kolgotki",
+    "KorunaCZ",
+    "KotKokos",
+    "KOWA",
+    "Kpaqpt100proc",
+    "KPb4MA",
+    "Krasnoludki",
+    "KrecimyWate",
+    "KWH",
+    "Ky6a",
+    "Kybalion",
+    "KYZNICA",
+    "L2walker",
+    "LaCarreta",
+    "LacozaNostra",
+    "LaMaFia",
+    "LastResorT",
+    "LaSupport",
+    "Lawless",
+    "league4killer",
+    "Legacy",
+    "LegacyOfWar",
+    "LegacyStyle",
+    "Legendary",
+    "Legion",
+    "LegionOfHonor",
+    "LegoSavedMyLife",
+    "LesSoldats",
+    "LethalArmy",
+    "Library",
+    "LibresMercaderes",
+    "LIFE",
+    "LightVersion",
+    "limithless",
+    "Limpopo",
+    "Lineage2",
+    "LineageII",
+    "LittleHelpers",
+    "LittleWorld",
+    "LoD",
+    "LogHorizon",
+    "LOL",
+    "LongBeards",
+    "Lorien",
+    "LosCelestiales",
+    "LosComerciantes",
+    "LoveAndPeace",
+    "lTTl",
+    "Lucky",
+    "Lustre",
+    "Luxury",
+    "LuzBlues",
+    "m11",
+    "M83",
+    "MafiaEnana",
+    "Mafie",
+    "MafieTrpasliku",
+    "MakGora",
+    "Malibu",
+    "Mamon",
+    "MamonA",
+    "MamonB",
+    "MamonBook",
+    "MamonEWEA",
+    "MamonShmot",
+    "MamonTATU",
+    "Marillion",
+    "Marvel",
+    "MaryaIvanovna",
+    "Masons",
+    "Masterwork",
+    "Masturbacja",
+    "matrix",
+    "MatsQuest",
+    "Mazik",
+    "McDo",
+    "McDonald",
+    "Meatballz",
+    "MeatForEnemy",
+    "MEMORIES",
+    "MenOfHonestFate",
+    "MERC",
+    "mercenaires",
+    "Mercenaries",
+    "MercenariesII",
+    "Mercenary",
+    "Merchants",
+    "Metanastes",
+    "METRO2033",
+    "MiddleEarth",
+    "MilkyWay",
+    "MillEndsPark",
+    "MindControl",
+    "MiniClan",
+    "minions",
+    "Misfits",
+    "Mistwalkers",
+    "MKbrazers",
+    "MlodziWilcy",
+    "MMM",
+    "mochileishon",
+    "MoMo",
+    "momonga",
+    "Monadnock",
+    "Monarcas",
+    "MoneyMakers",
+    "MonsterHunter",
+    "Moon",
+    "MoreBeer",
+    "MortalBlow",
+    "MoTblJIbku",
+    "MuPHbIu",
+    "Mutiny",
+    "Mycelium",
+    "MyHome",
+    "Myrmidons",
+    "mytraders",
+    "N0Clan",
+    "NacionMochi",
+    "Naemniki",
+    "NagiBatoPbI",
+    "Nani",
+    "NaViGatoSsS",
+    "NazgulS",
+    "NCteam",
+    "NecDeusIntersit",
+    "Nemesis",
+    "NeO",
+    "NerfThis",
+    "Netral",
+    "NeverStop",
+    "Newbie",
+    "Newellsoldboys",
+    "NewHouse",
+    "NewOrden",
+    "NextPlease",
+    "Night",
+    "NIGHTendDAY",
+    "NightFall",
+    "NightRaid",
+    "NightWitches",
+    "Nimrod",
+    "NinjaSquad",
+    "NinjaTurtles",
+    "NoClan",
+    "NOD",
+    "NoNameForever",
+    "NonFactory",
+    "NONSERVIUM",
+    "NORKa",
+    "NORMANDY",
+    "NorthernShipyard",
+    "NoSkill",
+    "Nostalgia",
+    "NotSleeping",
+    "NPC",
+    "Nu3a4eM",
+    "NwahGang",
+    "Objectivism",
+    "Oborvanci",
+    "OCHOBA",
+    "OffShore",
+    "OKHA",
+    "OldCrafters",
+    "OldNerds",
+    "OLDsch00L",
+    "OldTeam",
+    "OldTimes",
+    "Omerta",
+    "omfg",
+    "OnePiece",
+    "OneShot",
+    "OniBioraKoksy",
+    "OnlyFun",
+    "Oopssorry",
+    "Opexu",
+    "OPG",
+    "OPGKP",
+    "Order",
+    "OrderOfWhiteWolf",
+    "OriginalGangster",
+    "Orion",
+    "OsNoia",
+    "Ouroboros",
+    "Outlaw",
+    "OutlawReport",
+    "OutOfControl",
+    "overping",
+    "OxyewueDUDES",
+    "Palanka",
+    "Paradise",
+    "Paranoia",
+    "PARASITE",
+    "PartyHard",
+    "Patidifusos",
+    "Patriotizm",
+    "PeaSanTRY",
+    "PentagoN",
+    "People",
+    "PepeClown",
+    "Pequena",
+    "Phoenix",
+    "Pickles",
+    "PieceMakers",
+    "Pineapples",
+    "Pink",
+    "PinkElephants",
+    "Pirates",
+    "PiratesFreedom",
+    "PlayOff",
+    "Plumbus",
+    "PMFun",
+    "PodguznikiPWNZ",
+    "PolandAlcoholand",
+    "PopoClan",
+    "pornhub",
+    "PostPanks",
+    "PouTsoPernoveS",
+    "Pressing",
+    "Primorskii",
+    "PRO",
+    "Prodigy",
+    "Progressive",
+    "ProstiEsli",
+    "ProTeaM",
+    "Psari",
+    "Psarii",
+    "Pui",
+    "Pups",
+    "PVE",
+    "Quad",
+    "QuadDamage",
+    "RADUGA",
+    "Raid",
+    "RaidControl",
+    "RaidPatrol",
+    "Raids",
+    "RakiqTeam",
+    "Raptor",
+    "Ravenwood",
+    "Reapers",
+    "Reason",
+    "Rebel",
+    "Rebellion",
+    "Reckless",
+    "RedAlert",
+    "RedArmy",
+    "Redemption",
+    "RedRum",
+    "RedSky",
+    "RedWake",
+    "RedZerg",
+    "Reg59",
+    "Regenesis",
+    "Relapse",
+    "Relax",
+    "RelaxVillage",
+    "Relentless",
+    "Renaissance",
+    "Renegaci",
+    "Renegados",
+    "report",
+    "Requiem",
+    "ResidentEvil",
+    "Ressistance",
+    "Revolution",
+    "Rexiad",
+    "RFL",
+    "RICE",
+    "RichBitch",
+    "RiseOfAbyss",
+    "RiverShakrs",
+    "RoadToWin",
+    "RodzinaZastepcza",
+    "Rohen",
+    "Rohirrim",
+    "RollingStones",
+    "Romane",
+    "Royal",
+    "RoyalHell",
+    "RoyalLegion",
+    "Rulez",
+    "RunAway",
+    "Rush",
+    "RussianMafia",
+    "Rust",
+    "RyU",
+    "SaBoTaGe",
+    "Sahalin",
+    "SailAway",
+    "SaintsOfKain",
+    "Sanctum",
+    "SangueJorrando",
+    "SashaGray",
+    "Satori",
+    "SaulusCORP",
+    "SayNoMore",
+    "SchoolOfWarriors",
+    "SClub",
+    "SelfDefence",
+    "SendUsLocation",
+    "Sent1nel",
+    "SexPistol",
+    "SexPistols",
+    "ShadowForce",
+    "ShadowLeague",
+    "Shadows",
+    "ShadowSouls",
+    "Shameless",
+    "ShiraiRyu",
+    "Shot",
+    "Shout",
+    "SIC",
+    "SICkness",
+    "Silence",
+    "Silencio",
+    "SilentForce",
+    "SilentPlanet",
+    "Silver",
+    "SIN",
+    "SinDestino",
+    "Sins",
+    "Skrewdriver",
+    "SmietniK",
+    "Smile",
+    "SnowFlake",
+    "Snowflakes",
+    "Sodimac",
+    "SOLARES",
+    "Solaris",
+    "Solo",
+    "SoloDolo",
+    "SoloGame",
+    "SoloPlayers",
+    "Sonderkommando",
+    "Sopranos",
+    "Soratniki",
+    "SOS",
+    "SoSyndicate",
+    "SoulShot",
+    "Sparta",
+    "SpartanWorld",
+    "Squad",
+    "SramDoZlewu",
+    "SSSSSS",
+    "Staff",
+    "StaR",
+    "Starperi",
+    "StipriaiPisuosi",
+    "StoneBrotherhood",
+    "Storage",
+    "StreetBandosu",
+    "StripClub",
+    "SugarBabes",
+    "SuicideSquad",
+    "Summer",
+    "SuperDuperBobo",
+    "SupportLab",
+    "Supports",
+    "Svenska",
+    "Svet1anaPetrovna",
+    "SvetlanaPetr0vna",
+    "SvetlanaPetrovna",
+    "SwawolnaKompania",
+    "SweetRevenge",
+    "SwollenMembers",
+    "SwordArtOnline",
+    "SYNDICATE",
+    "TaPaKaHbl",
+    "TaxTheDream",
+    "TaxTheDreamII",
+    "Team",
+    "TeaTime",
+    "TelNyashka",
+    "Tempest",
+    "Templarios",
+    "TemplarsOfLight",
+    "TempleGuild",
+    "TeNeT",
+    "TepeMok",
+    "The",
+    "TheAkatsuki",
+    "TheBadBoys",
+    "TheBigSmallClan",
+    "TheBlackRose",
+    "theBRproject",
+    "Thebuffers",
+    "TheConflict",
+    "TheDeadDaisies",
+    "TheElders",
+    "TheEnd",
+    "TheFlowers",
+    "TheForge",
+    "TheGuards",
+    "TheKiwiSociety",
+    "TheLittleS",
+    "TheLostGuardians",
+    "TheRisingSun",
+    "TheSainTs",
+    "TheShire",
+    "TheUnderDogs",
+    "TheWildDivine",
+    "ThreeDaysGrace",
+    "Thugs2",
+    "ThugzMansion",
+    "Time",
+    "TimeMANCO",
+    "TimeToRise",
+    "Tinkle",
+    "TittyTwister",
+    "TNT",
+    "ToBestLife",
+    "ToJeMoje",
+    "TombRaider",
+    "TOOLss",
+    "TopClan",
+    "TopTen",
+    "Torment",
+    "Tormenta",
+    "TOTALITY",
+    "TotallyToxic",
+    "TotalOwnage",
+    "TradeGuild",
+    "TradersGuild",
+    "TrancefamilyBG",
+    "TRexDeluxe",
+    "TRIAS",
+    "Tron",
+    "TrpasliciMafie",
+    "TrueSight",
+    "Trupici",
+    "TSUNAMI",
+    "TuPropioJefe",
+    "TVIN",
+    "TyMoPuTe",
+    "Ultas",
+    "UltraRequiem",
+    "Ultras",
+    "Umberla",
+    "Umbrella",
+    "UmbrellaCorp",
+    "uMpK",
+    "Unbroken",
+    "UnderWorLD",
+    "UnionLatina",
+    "UniquePeople",
+    "United",
+    "UnitedWeAre",
+    "unstable",
+    "vagosNEGOCIANTES",
+    "Vaisnava",
+    "Valhalla",
+    "Vanguard",
+    "Vanishing",
+    "Vasper",
+    "VBcity",
+    "VBstyle",
+    "Vengeance",
+    "Venom",
+    "VersuS",
+    "Vestfold",
+    "vHZv",
+    "ViejosChotos",
+    "VIGOUR",
+    "Vikings",
+    "VinnitsaTeam",
+    "VinnytsaTeam",
+    "Virtue",
+    "Vision",
+    "ViveLaResistance",
+    "VKZ",
+    "Void",
+    "VooDoo",
+    "VooDooDool",
+    "W2RedMashine",
+    "Wanted",
+    "Warehouse",
+    "WarehouseMats",
+    "WarGroove",
+    "Warhaus",
+    "WarriorsBank",
+    "WarriorsOfLight",
+    "WayOfVVarriors",
+    "WayWarrior",
+    "WayWarriors",
+    "WeAreInThat",
+    "WELCOME",
+    "Werehouse",
+    "Wharehouse13",
+    "WhiskasLovers",
+    "WhiteCoal",
+    "WhiteKillers",
+    "whocares",
+    "WindOfPower",
+    "Winner",
+    "Winterborn",
+    "Witchers",
+    "WladcyMuch",
+    "WMD2",
+    "Wnet",
+    "WolfPack",
+    "WorldWide",
+    "Wrath",
+    "WTF",
+    "WuhanPneumonia",
+    "WuTang",
+    "wwww",
+    "xcx",
+    "XEON",
+    "Xplosion",
+    "xRaiders",
+    "XTeam",
+    "xxx",
+    "XyiDogonesh",
+    "xyz",
+    "Yagodka",
+    "yeahRight",
+    "YouAreDogShit",
+    "Zabiyaka",
+    "ZaliaBalta",
+    "ZGrade",
+    "Zhesko",
+    "Zorro",
+    "ZsirafPorno",
+    "Zwergenmafia",
+    "zxc"
   ]
 }
