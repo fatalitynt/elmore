@@ -64,19 +64,14 @@
       ]
     },
     {
-      "Name": "fairplay",
+      "Name": "test111",
       "Clans": [
-        "69",
         "DominationCAT",
-        "EagleHeart",
         "Explosive",
-        "Farm2",
         "KOJI9CKu",
         "KOJI9CO4HUKU",
-        "llllllllllllll",
         "neverland",
-        "OldSchool",
-        "RealezaLatina"
+        "OldSchool"
       ]
     },
     {
@@ -190,7 +185,8 @@
         "ScumAndVillainy",
         "WMD",
         "VVMD",
-        "ZakaT"
+        "ZakaT",
+        "ProTeaM"
       ]
     },
     {
@@ -2185,7 +2181,7 @@
       "Population": 1
     },
     {
-      "IsAllyLeader": true,
+      "IsAllyLeader": false,
       "Name": "Exiles",
       "ClName": "SaVOIr",
       "Population": 30
@@ -3511,7 +3507,7 @@
       "Population": 5
     },
     {
-      "IsAllyLeader": true,
+      "IsAllyLeader": false,
       "Name": "LegacyOfLineage",
       "ClName": "Alizee",
       "Population": 32
