@@ -36,7 +36,7 @@ function renderAllies(alliesData) {
   if (alliesData.Allies != null && alliesData.Allies.length > 0) {
     return (
       <div>
-        {alliesData.Allies.filter(x => getAllyMemberNumber(x) > 40)
+        {alliesData.Allies.filter(x => shouldRenderAlly(x))
           .map((ally, idx) => renderAlly(extendAllyInfo(ally), idx))}
       </div>
     );
@@ -53,7 +53,7 @@ function renderClansWithoutAlly(clanNames) {
             {clanNames
                 .map(x => clansMap[x])
                 .filter(x => shouldRenderRandomClan(x))
-                .map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+                .map((x, idx) => <div key={idx}>{Clan(x)}</div>)}
           </div>
         </div>
     );
@@ -62,6 +62,19 @@ function renderClansWithoutAlly(clanNames) {
 
 function shouldRenderRandomClan(clan) {
   return clan.Population > 20 || !!serverMeta.ClanHalls[clan.name] || !!serverMeta.Castles[clan.Name];
+}
+
+function shouldRenderAlly(ally) {
+  let allyPopulation = 0;
+  let allyHasClanHall = false;
+  let allyHasCastle = false;
+  ally.Clans.forEach(x => {
+    let clan = clansMap[x];
+    allyPopulation += clan.Population;
+    allyHasClanHall = allyHasClanHall || !!clan.ClanHall;
+    allyHasCastle = allyHasCastle || !!clan.Castle;
+  });
+  return allyPopulation > 40 || allyHasClanHall || allyHasCastle;
 }
 
 function renderAlly(ally, idx) {
@@ -73,15 +86,11 @@ function renderAlly(ally, idx) {
       <div className="allyTable" key={idx}>
         {renderClanTableHeader(() => renderAllyName(ally))}
         <div className="allyTableContent">
-          {clans.map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+          {clans.map((x, idx) => <div key={idx}>{Clan(x)}</div>)}
         </div>
       </div>
     );
   }
-}
-
-function renderClan(clan) {
-  return Clan(extendClanInfo(clan));
 }
 
 function renderAllyName(ally) {
@@ -144,7 +153,7 @@ function createClanGoalMap() {
 
 function createClansMap() {
   let dict = {};
-  alliesData.Clans.forEach(x => dict[x.Name] = x);
+  alliesData.Clans.forEach(x => dict[x.Name] = extendClanInfo(x));
   return dict;
 }
 

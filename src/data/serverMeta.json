@@ -59,17 +59,20 @@
       "iVikings",
       "VVMD",
       "WMD",
-      "ZakaT"
+      "ZakaT",
+      "NoRegret",
+      "SClub"
     ],
-    "PVE": [],
+    "PVE": [""],
     "PK": [],
     "AFK": [],
     "Friendly": [],
-    "Twinkies": ["Fucker", "Kigurumi", "SuZuRan"]
+    "Twinkies": ["Fucker", "Kigurumi", "SuZuRan", "NoRegrett", "StripC"]
   },
   "AllyLanguages": {
     "Tremendous": ["ru", "en"],
-    "SUXCESS": ["multi"]
+    "SUXCESS": ["multi"],
+    "StripClub": ["en"]
   },
   "ClanIcons": {
     "DevilsDozen": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAIAAAD3UuoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVDhPpZK7DYAwDEQzABVVJFoK1mAiGgagpmYuRqBlDDjrjGMRhPg8RZHl+J5cJHi24zznYtgsgzbCWGlB0LdYV8rtO4JXmAXMjRaEM2SptbBOyp8sABvZUhy7ExkcPbFGuaeoyTz/VNQXciz/XQSwFDYivzZ6LbpcZ2nlzmO5MZGLaAF44utHkccH8BtN9Bf+7EQIOwdbRplPB2BcAAAAAElFTkSuQmCC",

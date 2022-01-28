@@ -1,28 +1,20 @@
 {
   "Allies": [
     {
+      "Name": "StripClub",
+      "Clans": ["SClub", "StripC"]
+    },
+    {
       "Name": "300",
-      "Clans": [
-        "iSeraphs",
-        "Seraphs"
-      ]
+      "Clans": ["iSeraphs", "Seraphs"]
     },
     {
       "Name": "Alert",
-      "Clans": [
-        "NoRegret",
-        "NoRegrett",
-        "Red",
-        "red2",
-        "Red3"
-      ]
+      "Clans": ["Red", "red2", "Red3"]
     },
     {
       "Name": "BractwoPiwoszy",
-      "Clans": [
-        "300",
-        "Kaszuby"
-      ]
+      "Clans": ["300", "Kaszuby"]
     },
     {
       "Name": "CARTEL",
@@ -58,10 +50,7 @@
     },
     {
       "Name": "Era",
-      "Clans": [
-        "clanSupports",
-        "Stari4ki"
-      ]
+      "Clans": ["clanSupports", "Stari4ki"]
     },
     {
       "Name": "test111",
@@ -76,20 +65,11 @@
     },
     {
       "Name": "FastFood",
-      "Clans": [
-        "BurgerKing",
-        "KFC",
-        "McDonalds"
-      ]
+      "Clans": ["BurgerKing", "KFC", "McDonalds"]
     },
     {
       "Name": "Friends",
-      "Clans": [
-        "eXodus",
-        "RiseOfElephants",
-        "SpoilMustGoOn",
-        "TakeItEasy"
-      ]
+      "Clans": ["eXodus", "RiseOfElephants", "SpoilMustGoOn", "TakeItEasy"]
     },
     {
       "Name": "Imperium",
@@ -103,47 +83,27 @@
     },
     {
       "Name": "Inception",
-      "Clans": [
-        "BigBadWolf",
-        "Dreamers",
-        "Varnish"
-      ]
+      "Clans": ["BigBadWolf", "Dreamers", "Varnish"]
     },
     {
       "Name": "Kingdom",
-      "Clans": [
-        "Noxus",
-        "SonOfAnarchy"
-      ]
+      "Clans": ["Noxus", "SonOfAnarchy"]
     },
     {
       "Name": "KOKOH",
-      "Clans": [
-        "PublicEnemy",
-        "RusElite"
-      ]
+      "Clans": ["PublicEnemy", "RusElite"]
     },
     {
       "Name": "MASS",
-      "Clans": [
-        "AslanLar",
-        "UnitedSpirit"
-      ]
+      "Clans": ["AslanLar", "UnitedSpirit"]
     },
     {
       "Name": "MonkeyMadness",
-      "Clans": [
-        "Bananas",
-        "MightyMonkeys",
-        "MonkeyBusiness"
-      ]
+      "Clans": ["Bananas", "MightyMonkeys", "MonkeyBusiness"]
     },
     {
       "Name": "North",
-      "Clans": [
-        "Avalanche",
-        "iAvalanche"
-      ]
+      "Clans": ["Avalanche", "iAvalanche"]
     },
     {
       "Name": "OverPower",
@@ -168,10 +128,7 @@
     },
     {
       "Name": "SHARAP",
-      "Clans": [
-        "NUBZ",
-        "TheNFs"
-      ]
+      "Clans": ["NUBZ", "TheNFs"]
     },
     {
       "Name": "SUXCESS",
@@ -211,10 +168,7 @@
     },
     {
       "Name": "Zerg",
-      "Clans": [
-        "Kaipi",
-        "KAIPI2"
-      ]
+      "Clans": ["Kaipi", "KAIPI2"]
     }
   ],
   "Clans": [
@@ -5349,10 +5303,16 @@
       "Population": 21
     },
     {
-      "IsAllyLeader": false,
+      "IsAllyLeader": true,
       "Name": "SClub",
       "ClName": "Str82Business",
       "Population": 30
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "StripC",
+      "ClName": "-",
+      "Population": 25
     },
     {
       "IsAllyLeader": false,
