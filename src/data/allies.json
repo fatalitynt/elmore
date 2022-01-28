@@ -189,6 +189,7 @@
         "iVikings",
         "ScumAndVillainy",
         "WMD",
+        "VVMD",
         "ZakaT"
       ]
     },
@@ -2368,6 +2369,12 @@
       "Name": "ForeverAlone",
       "ClName": "Retanen",
       "Population": 5
+    },
+    {
+      "IsAllyLeader": false,
+      "Name": "VVMD",
+      "ClName": "Guchiny",
+      "Population": 20
     },
     {
       "IsAllyLeader": false,

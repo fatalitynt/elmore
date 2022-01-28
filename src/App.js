@@ -18,7 +18,6 @@ const clansMap = createClansMap();
 const clanNamesWithoutAlly = getClansNamesWithoutAlly();
 
 function App() {
-
   return (
     <div className="root">
       <div className="header">
@@ -37,7 +36,8 @@ function renderAllies(alliesData) {
   if (alliesData.Allies != null && alliesData.Allies.length > 0) {
     return (
       <div>
-        {alliesData.Allies.slice(1).map((ally, idx) => renderAlly(extendAllyInfo(ally), idx))}
+        {alliesData.Allies.filter(x => getAllyMemberNumber(x) > 40)
+          .map((ally, idx) => renderAlly(extendAllyInfo(ally), idx))}
       </div>
     );
   }
@@ -152,6 +152,10 @@ function getClansNamesWithoutAlly() {
   let clansWithAlly = {};
   alliesData.Allies.forEach(a => a.Clans.forEach(c => clansWithAlly[c] = true));
   return alliesData.Clans.map(x => x.Name).filter(x => !clansWithAlly[x]);
+}
+
+function getAllyMemberNumber(ally) {
+  return ally.Clans.map(x => clansMap[x].Population).reduce((a, b) => a + b);
 }
 
 export default App;
