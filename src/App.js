@@ -15,8 +15,10 @@ import {renderClanTableHeader} from "./clan/Clan";
 
 const clanGoalsMap = createClanGoalMap();
 const clansMap = createClansMap();
+const clanNamesWithoutAlly = getClansNamesWithoutAlly();
 
 function App() {
+
   return (
     <div className="root">
       <div className="header">
@@ -24,7 +26,7 @@ function App() {
       </div>
       <div className="content">
         {renderAllies(alliesData)}
-        {renderClansWithoutAlly(alliesData.ClansWithoutAlly)}
+        {renderClansWithoutAlly(clanNamesWithoutAlly)}
       </div>
       {Footer()}
     </div>
@@ -42,18 +44,20 @@ function renderAllies(alliesData) {
 }
 
 function renderClansWithoutAlly(clanNames) {
-  if (!!clanNames && clanNames.length > 0)
+  if (!!clanNames && clanNames.length > 0) {
+    clanNames.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
     return (
-      <div className="allyTable">
-        {renderClanTableHeader(() => "CLANS WITHOUT ALLIANCE")}
-        <div className="allyTableContent">
-          {clanNames
-            .map(x => clansMap[x])
-            .filter(x => shouldRenderRandomClan(x))
-            .map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+        <div className="allyTable">
+          {renderClanTableHeader(() => "CLANS WITHOUT ALLIANCE")}
+          <div className="allyTableContent">
+            {clanNames
+                .map(x => clansMap[x])
+                .filter(x => shouldRenderRandomClan(x))
+                .map((x, idx) => <div key={idx}>{renderClan(x)}</div>)}
+          </div>
         </div>
-      </div>
     );
+  }
 }
 
 function shouldRenderRandomClan(clan) {
@@ -61,7 +65,9 @@ function shouldRenderRandomClan(clan) {
 }
 
 function renderAlly(ally, idx) {
-  const clans = ally.Clans.map(x => clansMap[x]);
+  const clanNames = ally.Clans;
+  clanNames.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+  const clans = clanNames.map(x => clansMap[x]);
   if (clans.length > 0) {
     return (
       <div className="allyTable" key={idx}>
@@ -140,6 +146,12 @@ function createClansMap() {
   let dict = {};
   alliesData.Clans.forEach(x => dict[x.Name] = x);
   return dict;
+}
+
+function getClansNamesWithoutAlly() {
+  let clansWithAlly = {};
+  alliesData.Allies.forEach(a => a.Clans.forEach(c => clansWithAlly[c] = true));
+  return alliesData.Clans.map(x => x.Name).filter(x => !clansWithAlly[x]);
 }
 
 export default App;
